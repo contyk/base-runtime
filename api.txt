@@ -25,7 +25,8 @@ audit-2.6.7-1.fc25
 babeltrace-1.4.0-3.fc25
 +	babeltrace-1.4.0-3.fc25.x86_64.rpm
 *	libbabeltrace-1.4.0-3.fc25.x86_64.rpm
-+	libbabeltrace-devel-1.4.0-3.fc25.x86_64.rpm
+# requires glib2-devel
+!	libbabeltrace-devel-1.4.0-3.fc25.x86_64.rpm
 # requires python3
 !	python3-babeltrace-1.4.0-3.fc25.x86_64.rpm
 basesystem-11-2.fc24
@@ -113,11 +114,8 @@ dracut-044-77.fc25
 +	dracut-caps-044-77.fc25.x86_64.rpm
 +	dracut-config-generic-044-77.fc25.x86_64.rpm
 +	dracut-config-rescue-044-77.fc25.x86_64.rpm
-# requires hmaccalc; we might need this; consider adding it
-# hmaccalc or any of its subpackages doesn't require anything new
-!	dracut-fips-044-77.fc25.x86_64.rpm
-# requires dracut-fips
-!	dracut-fips-aesni-044-77.fc25.x86_64.rpm
++	dracut-fips-044-77.fc25.x86_64.rpm
++	dracut-fips-aesni-044-77.fc25.x86_64.rpm
 # requires dracut-network
 !	dracut-live-044-77.fc25.x86_64.rpm
 # requires dhcp-client, iproute, iputils; should we add these?
@@ -131,7 +129,8 @@ dracut-044-77.fc25
 dwz-0.12-2.fc25.1.baseruntime
 *	dwz-0.12-2.fc24
 e2fsprogs-1.43.1-2.fc25
-+	e2fsprogs-1.43.1-2.fc25.x86_64.rpm
+# requires fuse-libs
+!	e2fsprogs-1.43.1-2.fc25.x86_64.rpm
 +	e2fsprogs-devel-1.43.1-2.fc25.x86_64.rpm
 +	e2fsprogs-libs-1.43.1-2.fc25.x86_64.rpm
 +	e2fsprogs-static-1.43.1-2.fc25.x86_64.rpm
@@ -263,7 +262,8 @@ gettext-0.19.8.1-5.fc26
 !	emacs-gettext-0.19.8.1-5.fc26.noarch.rpm
 *	gettext-0.19.8.1-5.fc26.x86_64.rpm
 +	gettext-common-devel-0.19.8.1-5.fc26.noarch.rpm
-+	gettext-devel-0.19.8.1-5.fc26.x86_64.rpm
+# requires git
+!	gettext-devel-0.19.8.1-5.fc26.x86_64.rpm
 *	gettext-libs-0.19.8.1-5.fc26.x86_64.rpm
 # requires python3
 !	msghack-0.19.8.1-5.fc26.noarch.rpm
@@ -584,9 +584,7 @@ libarchive-3.2.2-1.fc25
 +	libarchive-devel-3.2.2-1.fc25.x86_64.rpm
 libassuan-2.4.3-1.fc25
 *	libassuan-2.4.3-1.fc25.x86_64.rpm
-# requires pth-devel; we should probably add it
-# neither pth nor pth-devel require anything not already included in BRT
-!	libassuan-devel-2.4.3-1.fc25.x86_64.rpm
++	libassuan-devel-2.4.3-1.fc25.x86_64.rpm
 libatomic_ops-7.4.4-1.fc25
 *	libatomic_ops-7.4.4-1.fc25.x86_64.rpm
 +	libatomic_ops-devel-7.4.4-1.fc25.x86_64.rpm
@@ -654,9 +652,7 @@ libpipeline-1.4.1-2.fc24
 +	libpipeline-devel-1.4.1-2.fc24.x86_64.rpm
 libpsl-0.14.0-1.fc25
 *	libpsl-0.14.0-1.fc25.x86_64.rpm
-# requires publicsuffix-list, consider adding it
-# publicsuffix-list* provides data files and has no additional dependencies
-!	libpsl-devel-0.14.0-1.fc25.x86_64.rpm
++	libpsl-devel-0.14.0-1.fc25.x86_64.rpm
 +	psl-0.14.0-1.fc25.x86_64.rpm
 libpwquality-1.3.0-6.fc25
 *	libpwquality-1.3.0-6.fc25.x86_64.rpm
@@ -1096,9 +1092,17 @@ vim-7.4.1989-2.fc25
 # the gvim part, requires X11
 !	vim-X11-7.4.1989-2.fc25.x86_64.rpm
 +	vim-common-7.4.1989-2.fc25.x86_64.rpm
-+	vim-enhanced-7.4.1989-2.fc25.x86_64.rpm
+# requires perl-libs, gpm-libs
+!	vim-enhanced-7.4.1989-2.fc25.x86_64.rpm
 +	vim-filesystem-7.4.1989-2.fc25.x86_64.rpm
 *	vim-minimal-7.4.1989-2.fc25.x86_64.rpm
 guile-2.0.13-1.fc25
 *	guile-2.0.13-1.fc25.x86_64.rpm
 +	guile-devel-2.0.13-1.fc25.x86_64.rpm
+pth-2.0.7-27.fc24
++	pth-2.0.7-27.fc24.x86_64.rpm
++	pth-devel-2.0.7-27.fc24.x86_64.rpm
+hmaccalc-0.9.14-4.fc24.
++	hmaccalc-0.9.14-4.fc24.x86_64.rpm
+publicsuffix-list-20160805-1.fc25
++	publicsuffix-list-20160805-1.fc25.noarch.rpm
