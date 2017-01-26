@@ -257,14 +257,13 @@ gdb-7.12-24.fc25
 gdbm-1.12-1.fc25
 *	gdbm-1.12-1.fc25.x86_64.rpm
 +	gdbm-devel-1.12-1.fc25.x86_64.rpm
-gettext-0.19.8.1-5.fc26
+gettext-0.19.8.1-7.fc26
 # requires emacs, emacs-nox
-!	emacs-gettext-0.19.8.1-5.fc26.noarch.rpm
+!	emacs-gettext-0.19.8.1-7.fc26.noarch.rpm
 *	gettext-0.19.8.1-5.fc26.x86_64.rpm
-+	gettext-common-devel-0.19.8.1-5.fc26.noarch.rpm
-# requires git
-!	gettext-devel-0.19.8.1-5.fc26.x86_64.rpm
-*	gettext-libs-0.19.8.1-5.fc26.x86_64.rpm
++	gettext-common-devel-0.19.8.1-7.fc26.noarch.rpm
++	gettext-devel-0.19.8.1-7.fc26.x86_64.rpm
+*	gettext-libs-0.19.8.1-7.fc26.x86_64.rpm
 # requires python3
 !	msghack-0.19.8.1-5.fc26.noarch.rpm
 ghc-srpm-macros-1.4.2-4.fc25
