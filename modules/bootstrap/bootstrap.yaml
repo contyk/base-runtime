@@ -15,6 +15,43 @@ data:
         community: https://fedoraproject.org/wiki/BaseRuntime
         documentation: https://fedoraproject.org/wiki/BaseRuntime
         tracker: https://pagure.io/base-runtime/issues
+    # The buildroot profiles need to be in sync with Base Runtime
+    profiles:
+        buildroot:
+            rpms:
+                - bash
+                - bzip2
+                - coreutils
+                - cpio
+                - diffutils
+                - fedora-release
+                - findutils
+                - gawk
+                - gcc
+                - gcc-c++
+                - grep
+                - gzip
+                - info
+                - make
+                - patch
+                - redhat-rpm-config
+                - rpm-build
+                - sed
+                - shadow-utils
+                - tar
+                - unzip
+                - util-linux
+                - which
+                - xz
+        srpm-buildroot:
+            rpms:
+                - bash
+                - fedora-release
+                - fedpkg-minimal
+                - gnupg2
+                - redhat-rpm-config
+                - rpm-build
+                - shadow-utils
     components:
         rpms:
             # a2ps-4.14-30.fc26
