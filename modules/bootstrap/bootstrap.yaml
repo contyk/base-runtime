@@ -12310,3 +12310,5 @@ data:
             base-runtime:
                 rationale: Bootstrapping requires Base Runtime.
                 ref: master
+                # Let's build the Base Runtime set after the deps
+                buildorder: 1000
