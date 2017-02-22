@@ -114,8 +114,9 @@ dracut-044-77.fc25
 +	dracut-caps-044-77.fc25.x86_64.rpm
 +	dracut-config-generic-044-77.fc25.x86_64.rpm
 +	dracut-config-rescue-044-77.fc25.x86_64.rpm
-+	dracut-fips-044-77.fc25.x86_64.rpm
-+	dracut-fips-aesni-044-77.fc25.x86_64.rpm
+# pulls nss in; Base Runtime doesn't need to be FIPS-compliant
+!	dracut-fips-044-77.fc25.x86_64.rpm
+!	dracut-fips-aesni-044-77.fc25.x86_64.rpm
 # requires dracut-network
 !	dracut-live-044-77.fc25.x86_64.rpm
 # requires dhcp-client, iproute, iputils; should we add these?
