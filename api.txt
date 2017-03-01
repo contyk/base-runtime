@@ -1,1108 +1,1044 @@
-acl-2.2.52-11.fc24
-*	acl-2.2.52-11.fc24.x86_64.rpm
-*	libacl-2.2.52-11.fc24.x86_64.rpm
-+	libacl-devel-2.2.52-11.fc24.x86_64.rpm
-at-3.1.20-1.fc25
-*	at-3.1.20-1.fc25.x86_64.rpm
-attr-2.4.47-16.fc24
-+	attr-2.4.47-16.fc24.x86_64.rpm
-*	libattr-2.4.47-16.fc24.x86_64.rpm
-+	libattr-devel-2.4.47-16.fc24.x86_64.rpm
-audit-2.6.7-1.fc25
-# requires audit
-!	audispd-plugins-2.6.7-1.fc25.x86_64.rpm
-# requires audit
-!	audispd-plugins-zos-2.6.7-1.fc25.x86_64.rpm
-# requires tcp_wrappers-libs
-!	audit-2.6.7-1.fc25.x86_64.rpm
-*	audit-libs-2.6.7-1.fc25.x86_64.rpm
-+	audit-libs-devel-2.6.7-1.fc25.x86_64.rpm
-# requires python
-!	audit-libs-python-2.6.7-1.fc25.x86_64.rpm
-# requires python3
-!	audit-libs-python3-2.6.7-1.fc25.x86_64.rpm
-+	audit-libs-static-2.6.7-1.fc25.x86_64.rpm
-babeltrace-1.4.0-3.fc25
-+	babeltrace-1.4.0-3.fc25.x86_64.rpm
-*	libbabeltrace-1.4.0-3.fc25.x86_64.rpm
-# requires glib2-devel
-!	libbabeltrace-devel-1.4.0-3.fc25.x86_64.rpm
-# requires python3
-!	python3-babeltrace-1.4.0-3.fc25.x86_64.rpm
-basesystem-11-2.fc24
-*	basesystem-11-2.fc24.noarch.rpm
-bash-4.3.43-4.fc25
-*	bash-4.3.43-4.fc25.x86_64.rpm
-+	bash-doc-4.3.43-4.fc25.x86_64.rpm
-bc-1.06.95-16.fc24
-*	bc-1.06.95-16.fc24.x86_64.rpm
-binutils-2.26.1-1.fc25
-*	binutils-2.26.1-1.fc25.x86_64.rpm
-+	binutils-devel-2.26.1-1.fc25.x86_64.rpm
-byacc-1.9.20160324-1.fc25
-*	byacc-1.9.20160324-1.fc25.x86_64.rpm
-bzip2-1.0.6-20.fc24
-*	bzip2-1.0.6-20.fc24.x86_64.rpm
-+	bzip2-devel-1.0.6-20.fc24.x86_64.rpm
-*	bzip2-libs-1.0.6-20.fc24.x86_64.rpm
-+	bzip2-static-1.0.6-20.fc24.x86_64.rpm
-ca-certificates-2016.2.10-1.0.fc25
-*	ca-certificates-2016.2.10-1.0.fc25.noarch.rpm
-cflow-1.5-1.fc25
-*	cflow-1.5-1.fc25.x86_64.rpm
-chkconfig-1.8-1.fc25
-*	chkconfig-1.8-1.fc25.x86_64.rpm
-# requires newt
-!	ntsysv-1.8-1.fc25.x86_64.rpm
-coreutils-8.25-14.fc25
-*	coreutils-8.25-14.fc25.x86_64.rpm
-*	coreutils-common-8.25-14.fc25.x86_64.rpm
-+	coreutils-single-8.25-14.fc25.x86_64.rpm
-cpio-2.12-3.fc24
-*	cpio-2.12-3.fc24.x86_64.rpm
-cracklib-2.9.6-3.fc25
-*	cracklib-2.9.6-3.fc25.x86_64.rpm
-+	cracklib-devel-2.9.6-3.fc25.x86_64.rpm
-+	cracklib-dicts-2.9.6-3.fc25.x86_64.rpm
-# requires python
-!	cracklib-python-2.9.6-3.fc25.x86_64.rpm
-cronie-1.5.1-2.fc25
-*	cronie-1.5.1-2.fc25.x86_64.rpm
-+	cronie-anacron-1.5.1-2.fc25.x86_64.rpm
-*	cronie-noanacron-1.5.1-2.fc25.x86_64.rpm
-crontabs-1.11-12.20150630git.fc24
-*	crontabs-1.11-12.20150630git.fc24.noarch.rpm
-crypto-policies-20160921-2.git75b9b04.fc25
-*	crypto-policies-20160921-2.git75b9b04.fc25.noarch.rpm
-cryptsetup-1.7.2-3.fc25
-+	cryptsetup-1.7.2-3.fc25.x86_64.rpm
-+	cryptsetup-devel-1.7.2-3.fc25.x86_64.rpm
-*	cryptsetup-libs-1.7.2-3.fc25.x86_64.rpm
-# requires python
-!	cryptsetup-python-1.7.2-3.fc25.x86_64.rpm
-# requires python3
-!	cryptsetup-python3-1.7.2-3.fc25.x86_64.rpm
-+	cryptsetup-reencrypt-1.7.2-3.fc25.x86_64.rpm
-+	veritysetup-1.7.2-3.fc25.x86_64.rpm
-ctags-5.8-18.fc24
-*	ctags-5.8-18.fc24.x86_64.rpm
-+	ctags-etags-5.8-18.fc24.x86_64.rpm
-curl-7.50.3-1.fc25
-*	curl-7.50.3-1.fc25.x86_64.rpm
-*	libcurl-7.50.3-1.fc25.x86_64.rpm
-+	libcurl-devel-7.50.3-1.fc25.x86_64.rpm
-cyrus-sasl-2.1.26-26.2.fc24
-# requires initscripts
-!	cyrus-sasl-2.1.26-26.2.fc24.x86_64.rpm
-# requires cyrus-sasl
-!	cyrus-sasl-devel-2.1.26-26.2.fc24.x86_64.rpm
-+	cyrus-sasl-gs2-2.1.26-26.2.fc24.x86_64.rpm
-+	cyrus-sasl-gssapi-2.1.26-26.2.fc24.x86_64.rpm
-+	cyrus-sasl-ldap-2.1.26-26.2.fc24.x86_64.rpm
-# can this be removed? it's the only cyrus-sasl package pulling this lot in
-*	cyrus-sasl-lib-2.1.26-26.2.fc24.x86_64.rpm
-+	cyrus-sasl-md5-2.1.26-26.2.fc24.x86_64.rpm
-+	cyrus-sasl-ntlm-2.1.26-26.2.fc24.x86_64.rpm
-+	cyrus-sasl-plain-2.1.26-26.2.fc24.x86_64.rpm
-+	cyrus-sasl-scram-2.1.26-26.2.fc24.x86_64.rpm
-# requires postgresql-libs, mariadb-libs
-!	cyrus-sasl-sql-2.1.26-26.2.fc24.x86_64.rpm
-diffutils-3.3-13.fc24
-*	diffutils-3.3-13.fc24.x86_64.rpm
-dracut-044-77.fc25
-*	dracut-044-77.fc25.x86_64.rpm
-+	dracut-caps-044-77.fc25.x86_64.rpm
-+	dracut-config-generic-044-77.fc25.x86_64.rpm
-+	dracut-config-rescue-044-77.fc25.x86_64.rpm
-# pulls nss in; Base Runtime doesn't need to be FIPS-compliant
-!	dracut-fips-044-77.fc25.x86_64.rpm
-!	dracut-fips-aesni-044-77.fc25.x86_64.rpm
-# requires dracut-network
-!	dracut-live-044-77.fc25.x86_64.rpm
-# requires dhcp-client, iproute, iputils; should we add these?
-# iputils wouldn't bring any new dependencies
-# iproute would require libmnl (also needed for iptables subpackages, dep-free)
-# dhcp-client requires iputils, iproute, ipcalc (no extra deps) and bind99-libs
-# (no extra deps either; the package is not the full server, just an
-# implementation of the DNS protocol)
-!	dracut-network-044-77.fc25.x86_64.rpm
-+	dracut-tools-044-77.fc25.x86_64.rpm
-dwz-0.12-2.fc25.1.baseruntime
-*	dwz-0.12-2.fc24
-e2fsprogs-1.43.1-2.fc25
-# requires fuse-libs
-!	e2fsprogs-1.43.1-2.fc25.x86_64.rpm
-+	e2fsprogs-devel-1.43.1-2.fc25.x86_64.rpm
-+	e2fsprogs-libs-1.43.1-2.fc25.x86_64.rpm
-+	e2fsprogs-static-1.43.1-2.fc25.x86_64.rpm
-*	libcom_err-1.43.1-2.fc25.x86_64.rpm
-+	libcom_err-devel-1.43.1-2.fc25.x86_64.rpm
-+	libss-1.43.1-2.fc25.x86_64.rpm
-+	libss-devel-1.43.1-2.fc25.x86_64.rpm
-ed-1.13-1.fc25
-*	ed-1.13-1.fc25.x86_64.rpm
-elfutils-0.167-2.fc25
-*	elfutils-0.167-2.fc25.x86_64.rpm
-*	elfutils-default-yama-scope-0.167-2.fc25.noarch.rpm
-+	elfutils-devel-0.167-2.fc25.x86_64.rpm
-+	elfutils-devel-static-0.167-2.fc25.x86_64.rpm
-*	elfutils-libelf-0.167-2.fc25.x86_64.rpm
-+	elfutils-libelf-devel-0.167-2.fc25.x86_64.rpm
-+	elfutils-libelf-devel-static-0.167-2.fc25.x86_64.rpm
-*	elfutils-libs-0.167-2.fc25.x86_64.rpm
-expat-2.2.0-1.fc25
-*	expat-2.2.0-1.fc25.x86_64.rpm
-+	expat-devel-2.2.0-1.fc25.x86_64.rpm
-+	expat-static-2.2.0-1.fc25.x86_64.rpm
-fedora-logos-22.0.0-3.fc24
-*	fedora-logos-22.0.0-3.fc24.x86_64.rpm
-# should we include this here? it should probably be part of an httpd module
-+	fedora-logos-httpd-22.0.0-3.fc24.noarch.rpm
-fedora-release-25-1
-+	convert-to-edition-25-1.noarch.rpm
-# consider switching to generic-release or making our own base runtime release
-# perhaps filter out the rest; most likely
-*	fedora-release-25-1.noarch.rpm
-+	fedora-release-atomichost-25-1.noarch.rpm
-+	fedora-release-cloud-25-1.noarch.rpm
-# requires cockpit-*, rolekit, openssh-server
-!	fedora-release-server-25-1.noarch.rpm
-# requires NetworkManager-config-connectivity-fedora
-!	fedora-release-workstation-25-1.noarch.rpm
-fedora-repos-25-1
-*	fedora-repos-25-1.noarch.rpm
-+	fedora-repos-rawhide-25-1.noarch.rpm
-fedpkg-minimal-1.1.0-3.fc24
-*	fedpkg-minimal-1.1.0-3.fc24.noarch.rpm
-file-5.28-4.fc25
-*	file-5.28-4.fc25.x86_64.rpm
-+	file-devel-5.28-4.fc25.x86_64.rpm
-*	file-libs-5.28-4.fc25.x86_64.rpm
-# requires python
-!	python-magic-5.28-4.fc25.noarch.rpm
-# requires python3
-!	python3-magic-5.28-4.fc25.noarch.rpm
-filesystem-3.2-37.fc24
-*	filesystem-3.2-37.fc24.x86_64.rpm
-flex-2.6.0-3.fc25
-*	flex-2.6.0-3.fc25.x86_64.rpm
-+	flex-devel-2.6.0-3.fc25.x86_64.rpm
-+	flex-doc-2.6.0-3.fc25.x86_64.rpm
-fpc-srpm-macros-1.0-1.fc25
-*	fpc-srpm-macros-1.0-1.fc25.noarch.rpm
-freetype-2.6.5-1.fc25
-*	freetype-2.6.5-1.fc25.x86_64.rpm
-# requires libX11
-!	freetype-demos-2.6.5-1.fc25.x86_64.rpm
-+	freetype-devel-2.6.5-1.fc25.x86_64.rpm
-gawk-4.1.3-8.fc25
-*	gawk-4.1.3-8.fc25.x86_64.rpm
-+	gawk-devel-4.1.3-8.fc25.x86_64.rpm
-+	gawk-doc-4.1.3-8.fc25.noarch.rpm
-gc-7.4.4-1.fc25
-*	gc-7.4.4-1.fc25.x86_64.rpm
-+	gc-devel-7.4.4-1.fc25.x86_64.rpm
-gcc-6.2.1-2.fc25
-*	cpp-6.2.1-2.fc25.x86_64.rpm
-*	gcc-6.2.1-2.fc25.x86_64.rpm
-*	gcc-c++-6.2.1-2.fc25.x86_64.rpm
-+	gcc-gdb-plugin-6.2.1-2.fc25.x86_64.rpm
-+	gcc-gfortran-6.2.1-2.fc25.x86_64.rpm
-+	gcc-gnat-6.2.1-2.fc25.x86_64.rpm
-+	gcc-go-6.2.1-2.fc25.x86_64.rpm
-+	gcc-objc++-6.2.1-2.fc25.x86_64.rpm
-+	gcc-objc-6.2.1-2.fc25.x86_64.rpm
-+	gcc-plugin-devel-6.2.1-2.fc25.x86_64.rpm
-+	libasan-6.2.1-2.fc25.x86_64.rpm
-+	libasan-static-6.2.1-2.fc25.x86_64.rpm
-+	libatomic-6.2.1-2.fc25.x86_64.rpm
-+	libatomic-static-6.2.1-2.fc25.x86_64.rpm
-+	libcilkrts-6.2.1-2.fc25.x86_64.rpm
-+	libcilkrts-static-6.2.1-2.fc25.x86_64.rpm
-*	libgcc-6.2.1-2.fc25.x86_64.rpm
-+	libgccjit-6.2.1-2.fc25.x86_64.rpm
-+	libgccjit-devel-6.2.1-2.fc25.x86_64.rpm
-+	libgfortran-6.2.1-2.fc25.x86_64.rpm
-+	libgfortran-static-6.2.1-2.fc25.x86_64.rpm
-+	libgnat-6.2.1-2.fc25.x86_64.rpm
-+	libgnat-devel-6.2.1-2.fc25.x86_64.rpm
-+	libgnat-static-6.2.1-2.fc25.x86_64.rpm
-+	libgo-6.2.1-2.fc25.x86_64.rpm
-+	libgo-devel-6.2.1-2.fc25.x86_64.rpm
-+	libgo-static-6.2.1-2.fc25.x86_64.rpm
-*	libgomp-6.2.1-2.fc25.x86_64.rpm
-+	libitm-6.2.1-2.fc25.x86_64.rpm
-+	libitm-devel-6.2.1-2.fc25.x86_64.rpm
-+	libitm-static-6.2.1-2.fc25.x86_64.rpm
-+	liblsan-6.2.1-2.fc25.x86_64.rpm
-+	liblsan-static-6.2.1-2.fc25.x86_64.rpm
-+	libmpx-6.2.1-2.fc25.x86_64.rpm
-+	libmpx-static-6.2.1-2.fc25.x86_64.rpm
-+	libobjc-6.2.1-2.fc25.x86_64.rpm
-+	libquadmath-6.2.1-2.fc25.x86_64.rpm
-+	libquadmath-devel-6.2.1-2.fc25.x86_64.rpm
-+	libquadmath-static-6.2.1-2.fc25.x86_64.rpm
-*	libstdc++-6.2.1-2.fc25.x86_64.rpm
-*	libstdc++-devel-6.2.1-2.fc25.x86_64.rpm
-+	libstdc++-docs-6.2.1-2.fc25.x86_64.rpm
-+	libstdc++-static-6.2.1-2.fc25.x86_64.rpm
-+	libtsan-6.2.1-2.fc25.x86_64.rpm
-+	libtsan-static-6.2.1-2.fc25.x86_64.rpm
-+	libubsan-6.2.1-2.fc25.x86_64.rpm
-+	libubsan-static-6.2.1-2.fc25.x86_64.rpm
-gdb-7.12-24.fc25
-+	gdb-7.12-24.fc25.x86_64.rpm
-+	gdb-doc-7.12-24.fc25.noarch.rpm
-+	gdb-gdbserver-7.12-24.fc25.x86_64.rpm
-*	gdb-headless-7.12-24.fc25.x86_64.rpm
-gdbm-1.12-1.fc25
-*	gdbm-1.12-1.fc25.x86_64.rpm
-+	gdbm-devel-1.12-1.fc25.x86_64.rpm
-gettext-0.19.8.1-7.fc26
-# requires emacs, emacs-nox
-!	emacs-gettext-0.19.8.1-7.fc26.noarch.rpm
-*	gettext-0.19.8.1-5.fc26.x86_64.rpm
-+	gettext-common-devel-0.19.8.1-7.fc26.noarch.rpm
-+	gettext-devel-0.19.8.1-7.fc26.x86_64.rpm
-*	gettext-libs-0.19.8.1-7.fc26.x86_64.rpm
-# requires python3
-!	msghack-0.19.8.1-5.fc26.noarch.rpm
-ghc-srpm-macros-1.4.2-4.fc25
-*	ghc-srpm-macros-1.4.2-4.fc25.noarch.rpm
-glib2-2.50.1-1.fc25
-*	glib2-2.50.1-1.fc25.x86_64.rpm
-# requires perl; this is bad; wat do?
-!	glib2-devel-2.50.1-1.fc25.x86_64.rpm
-+	glib2-doc-2.50.1-1.fc25.noarch.rpm
-# requires gamin
-!	glib2-fam-2.50.1-1.fc25.x86_64.rpm
-# requires glib2-devel
-!	glib2-static-2.50.1-1.fc25.x86_64.rpm
-+	glib2-tests-2.50.1-1.fc25.x86_64.rpm
-glibc-2.24-3.fc25.1.baseruntime
-*	glibc-2.24-3.fc25.x86_64.rpm
-+	glibc-all-langpacks-2.24-3.fc25.x86_64.rpm
-# requires python
-!	glibc-benchtests-2.24-3.fc25.x86_64.rpm
-*	glibc-common-2.24-3.fc25.x86_64.rpm
-# is this a regular debuginfo package? if it is, it should be listed as API but
-# shouldn't be filtered out either
-+	glibc-debuginfo-common-2.24-3.fc25.x86_64.rpm
-*	glibc-devel-2.24-3.fc25.x86_64.rpm
-*	glibc-headers-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-aa-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-af-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ak-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-am-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-an-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-anp-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ar-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-as-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ast-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ayc-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-az-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-be-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-bem-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ber-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-bg-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-bhb-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-bho-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-bn-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-bo-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-br-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-brx-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-bs-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-byn-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ca-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ce-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-chr-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-cmn-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-crh-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-cs-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-csb-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-cv-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-cy-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-da-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-de-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-doi-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-dv-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-dz-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-el-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-en-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-eo-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-es-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-et-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-eu-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-fa-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ff-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-fi-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-fil-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-fo-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-fr-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-fur-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-fy-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ga-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-gd-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-gez-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-gl-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-gu-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-gv-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ha-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-hak-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-he-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-hi-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-hne-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-hr-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-hsb-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ht-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-hu-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-hy-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ia-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-id-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ig-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ik-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-is-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-it-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-iu-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ja-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ka-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-kk-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-kl-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-km-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-kn-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ko-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-kok-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ks-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ku-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-kw-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ky-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-lb-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-lg-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-li-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-lij-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ln-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-lo-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-lt-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-lv-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-lzh-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-mag-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-mai-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-mg-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-mhr-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-mi-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-mk-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ml-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-mn-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-mni-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-mr-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ms-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-mt-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-my-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-nan-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-nb-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-nds-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ne-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-nhn-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-niu-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-nl-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-nn-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-nr-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-nso-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-oc-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-om-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-or-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-os-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-pa-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-pap-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-pl-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ps-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-pt-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-quz-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-raj-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ro-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ru-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-rw-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-sa-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-sat-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-sc-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-sd-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-se-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-sgs-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-shs-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-si-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-sid-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-sk-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-sl-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-so-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-sq-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-sr-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ss-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-st-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-sv-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-sw-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-szl-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ta-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-tcy-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-te-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-tg-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-th-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-the-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ti-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-tig-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-tk-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-tl-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-tn-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-tr-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ts-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-tt-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ug-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-uk-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-unm-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ur-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-uz-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-ve-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-vi-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-wa-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-wae-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-wal-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-wo-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-xh-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-yi-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-yo-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-yue-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-zh-2.24-3.fc25.x86_64.rpm
-+	glibc-langpack-zu-2.24-3.fc25.x86_64.rpm
-+	glibc-locale-source-2.24-3.fc25.x86_64.rpm
-*	glibc-minimal-langpack-2.24-3.fc25.x86_64.rpm
-+	glibc-nss-devel-2.24-3.fc25.x86_64.rpm
-+	glibc-static-2.24-3.fc25.x86_64.rpm
-# requires perl and gd; we can probably sacrifice this one
-!	glibc-utils-2.24-3.fc25.x86_64.rpm
-+	libcrypt-2.24-3.fc25.x86_64.rpm
-*	libcrypt-nss-2.24-3.fc25.x86_64.rpm
-+	nscd-2.24-3.fc25.x86_64.rpm
-+	nss_db-2.24-3.fc25.x86_64.rpm
-+	nss_hesiod-2.24-3.fc25.x86_64.rpm
-+	nss_nis-2.24-3.fc25.x86_64.rpm
-gnat-srpm-macros-4-1.fc25
-*	gnat-srpm-macros-4-1.fc25.noarch.rpm
-gnupg2-2.1.13-2.fc25
-*	gnupg2-2.1.13-2.fc25.x86_64.rpm
-# requires libusbx
-!	gnupg2-smime-2.1.13-2.fc25.x86_64.rpm
-gnutls-3.5.5-2.fc25
-*	gnutls-3.5.5-2.fc25.x86_64.rpm
-+	gnutls-c++-3.5.5-2.fc25.x86_64.rpm
-# requires unbound-libs; this is probably bad
-# we should either drop gnutls or resolve this somehow, see issues below
-!	gnutls-dane-3.5.5-2.fc25.x86_64.rpm
-# requires gnutls-dane
-!	gnutls-devel-3.5.5-2.fc25.x86_64.rpm
-# requires compat-guile18
-!	gnutls-guile-3.5.5-2.fc25.x86_64.rpm
-# requires gnutls-dane and autogen-libopts
-!	gnutls-utils-3.5.5-2.fc25.x86_64.rpm
-go-srpm-macros-2-7.fc25
-*	go-srpm-macros-2-7.fc25.noarch.rpm
-grep-2.26-2.fc25
-*	grep-2.26-2.fc25.x86_64.rpm
-groff-1.22.3-8.fc24
-# requires perl; can we get of groff altogether?
-!	groff-1.22.3-8.fc24.x86_64.rpm
-*	groff-base-1.22.3-8.fc24.x86_64.rpm
-# requires groff
-!	groff-doc-1.22.3-8.fc24.noarch.rpm
-# requires more perl...
-!	groff-perl-1.22.3-8.fc24.x86_64.rpm
-# requires lots of X11
-!	groff-x11-1.22.3-8.fc24.x86_64.rpm
-gzip-1.8-1.fc25
-*	gzip-1.8-1.fc25.x86_64.rpm
-iptables-1.6.0-2.fc25
-# requires libnfnetlinks and libnetfilter_conntrack
-!	iptables-1.6.0-2.fc25.x86_64.rpm
-# just like above, plus libmnl and libnftnl
-!	iptables-compat-1.6.0-2.fc25.x86_64.rpm
-# requires iptables
-!	iptables-devel-1.6.0-2.fc25.x86_64.rpm
-*	iptables-libs-1.6.0-2.fc25.x86_64.rpm
-+	iptables-services-1.6.0-2.fc25.x86_64.rpm
-# requires iptables and libnfnetlink
-!	iptables-utils-1.6.0-2.fc25.x86_64.rpm
-isl-0.14-5.fc24
-*	isl-0.14-5.fc24.x86_64.rpm
-+	isl-devel-0.14-5.fc24.x86_64.rpm
-kernel-4.8.6-300.fc25
-+	kernel-4.8.6-300.fc25.x86_64.rpm
-*	kernel-core-4.8.6-300.fc25.x86_64.rpm
-+	kernel-cross-headers-4.8.6-300.fc25.x86_64.rpm
-+	kernel-debug-4.8.6-300.fc25.x86_64.rpm
-+	kernel-debug-core-4.8.6-300.fc25.x86_64.rpm
-# requires perl
-!	kernel-debug-devel-4.8.6-300.fc25.x86_64.rpm
-+	kernel-debug-modules-4.8.6-300.fc25.x86_64.rpm
-+	kernel-debug-modules-extra-4.8.6-300.fc25.x86_64.rpm
-# requires perl... hrmm...
-!	kernel-devel-4.8.6-300.fc25.x86_64.rpm
-*	kernel-headers-4.8.6-300.fc25.x86_64.rpm
-+	kernel-modules-4.8.6-300.fc25.x86_64.rpm
-+	kernel-modules-extra-4.8.6-300.fc25.x86_64.rpm
-# requires pciutils-libs
-!	kernel-tools-4.8.6-300.fc25.x86_64.rpm
-+	kernel-tools-libs-4.8.6-300.fc25.x86_64.rpm
-# requires kernel-tools
-!	kernel-tools-libs-devel-4.8.6-300.fc25.x86_64.rpm
-# requires perl, python, numactl-libs and slang
-!	perf-4.8.6-300.fc25.x86_64.rpm
-# requires python
-!	python-perf-4.8.6-300.fc25.x86_64.rpm
-keyutils-1.5.9-8.fc24
-+	keyutils-1.5.9-8.fc24.x86_64.rpm
-*	keyutils-libs-1.5.9-8.fc24.x86_64.rpm
-+	keyutils-libs-devel-1.5.9-8.fc24.x86_64.rpm
-kmod-23-1.fc25
-*	kmod-23-1.fc25.x86_64.rpm
-+	kmod-devel-23-1.fc25.x86_64.rpm
-*	kmod-libs-23-1.fc25.x86_64.rpm
-krb5-1.14.4-4.fc25
-+	krb5-devel-1.14.4-4.fc25.x86_64.rpm
-*	krb5-libs-1.14.4-4.fc25.x86_64.rpm
-+	krb5-pkinit-1.14.4-4.fc25.x86_64.rpm
-# requires libverto-libev, libverto-libevent, liverto-tevent, words, logrotate
-!	krb5-server-1.14.4-4.fc25.x86_64.rpm
-# requires krb5-server
-!	krb5-server-ldap-1.14.4-4.fc25.x86_64.rpm
-+	krb5-workstation-1.14.4-4.fc25.x86_64.rpm
-+	libkadm5-1.14.4-4.fc25.x86_64.rpm
-less-481-6.fc25
-*	less-481-6.fc25.x86_64.rpm
-libarchive-3.2.2-1.fc25
-+	bsdcat-3.2.2-1.fc25.x86_64.rpm
-+	bsdcpio-3.2.2-1.fc25.x86_64.rpm
-+	bsdtar-3.2.2-1.fc25.x86_64.rpm
-*	libarchive-3.2.2-1.fc25.x86_64.rpm
-+	libarchive-devel-3.2.2-1.fc25.x86_64.rpm
-libassuan-2.4.3-1.fc25
-*	libassuan-2.4.3-1.fc25.x86_64.rpm
-+	libassuan-devel-2.4.3-1.fc25.x86_64.rpm
-libatomic_ops-7.4.4-1.fc25
-*	libatomic_ops-7.4.4-1.fc25.x86_64.rpm
-+	libatomic_ops-devel-7.4.4-1.fc25.x86_64.rpm
-+	libatomic_ops-static-7.4.4-1.fc25.x86_64.rpm
-libcap-2.25-2.fc25
-*	libcap-2.25-2.fc25.x86_64.rpm
-+	libcap-devel-2.25-2.fc25.x86_64.rpm
-libcap-ng-0.7.8-1.fc25
-*	libcap-ng-0.7.8-1.fc25.x86_64.rpm
-+	libcap-ng-devel-0.7.8-1.fc25.x86_64.rpm
-# requires python
-!	libcap-ng-python-0.7.8-1.fc25.x86_64.rpm
-# requires python3
-!	libcap-ng-python3-0.7.8-1.fc25.x86_64.rpm
-+	libcap-ng-utils-0.7.8-1.fc25.x86_64.rpm
-libcroco-0.6.11-2.fc24
-*	libcroco-0.6.11-2.fc24.x86_64.rpm
-# requires glib2-devel
-!	libcroco-devel-0.6.11-2.fc24.x86_64.rpm
-libdb-5.3.28-14.fc24
-*	libdb-5.3.28-14.fc24.x86_64.rpm
-+	libdb-cxx-5.3.28-14.fc24.x86_64.rpm
-+	libdb-cxx-devel-5.3.28-14.fc24.x86_64.rpm
-+	libdb-devel-5.3.28-14.fc24.x86_64.rpm
-+	libdb-devel-doc-5.3.28-14.fc24.noarch.rpm
-+	libdb-devel-static-5.3.28-14.fc24.x86_64.rpm
-+	libdb-java-5.3.28-14.fc24.x86_64.rpm
-+	libdb-java-devel-5.3.28-14.fc24.x86_64.rpm
-+	libdb-sql-5.3.28-14.fc24.x86_64.rpm
-+	libdb-sql-devel-5.3.28-14.fc24.x86_64.rpm
-+	libdb-tcl-5.3.28-14.fc24.x86_64.rpm
-+	libdb-tcl-devel-5.3.28-14.fc24.x86_64.rpm
-*	libdb-utils-5.3.28-14.fc24.x86_64.rpm
-libffi-3.1-9.fc24
-*	libffi-3.1-9.fc24.x86_64.rpm
-+	libffi-devel-3.1-9.fc24.x86_64.rpm
-libgcrypt-1.6.6-1.fc25
-*	libgcrypt-1.6.6-1.fc25.x86_64.rpm
-+	libgcrypt-devel-1.6.6-1.fc25.x86_64.rpm
-libgpg-error-1.24-1.fc25
-*	libgpg-error-1.24-1.fc25.x86_64.rpm
-+	libgpg-error-devel-1.24-1.fc25.x86_64.rpm
-libidn-1.33-1.fc25
-*	libidn-1.33-1.fc25.x86_64.rpm
-+	libidn-devel-1.33-1.fc25.x86_64.rpm
-# requires openjdk and javapackages-tools
-!	libidn-java-1.33-1.fc25.noarch.rpm
-# requires javapackages-tools
-!	libidn-javadoc-1.33-1.fc25.noarch.rpm
-libipt-1.5-1.fc25
-*	libipt-1.5-1.fc25.x86_64.rpm
-+	libipt-devel-1.5-1.fc25.x86_64.rpm
-libksba-1.3.5-1.fc25
-*	libksba-1.3.5-1.fc25.x86_64.rpm
-+	libksba-devel-1.3.5-1.fc25.x86_64.rpm
-libmetalink-0.1.2-9.fc24
-*	libmetalink-0.1.2-9.fc24.x86_64.rpm
-+	libmetalink-devel-0.1.2-9.fc24.x86_64.rpm
-libmpc-1.0.2-5.fc24
-+	compat-libmpc-1.0.2-5.fc24.x86_64.rpm
-*	libmpc-1.0.2-5.fc24.x86_64.rpm
-+	libmpc-devel-1.0.2-5.fc24.x86_64.rpm
-libpipeline-1.4.1-2.fc24
-*	libpipeline-1.4.1-2.fc24.x86_64.rpm
-+	libpipeline-devel-1.4.1-2.fc24.x86_64.rpm
-libpsl-0.14.0-1.fc25
-*	libpsl-0.14.0-1.fc25.x86_64.rpm
-+	libpsl-devel-0.14.0-1.fc25.x86_64.rpm
-+	psl-0.14.0-1.fc25.x86_64.rpm
-libpwquality-1.3.0-6.fc25
-*	libpwquality-1.3.0-6.fc25.x86_64.rpm
-+	libpwquality-devel-1.3.0-6.fc25.x86_64.rpm
-# requires python
-!	python-pwquality-1.3.0-6.fc25.x86_64.rpm
-# requires python3
-!	python3-pwquality-1.3.0-6.fc25.x86_64.rpm
-libseccomp-2.3.1-1.fc25
-*	libseccomp-2.3.1-1.fc25.x86_64.rpm
-+	libseccomp-devel-2.3.1-1.fc25.x86_64.rpm
-+	libseccomp-static-2.3.1-1.fc25.x86_64.rpm
-libselinux-2.5-12.fc25
-*	libselinux-2.5-12.fc25.x86_64.rpm
-+	libselinux-devel-2.5-12.fc25.x86_64.rpm
-# requires python
-!	libselinux-python-2.5-12.fc25.x86_64.rpm
-# requires python3
-!	libselinux-python3-2.5-12.fc25.x86_64.rpm
-# this one is actually fine but since we don't include the python bindings...
-!	libselinux-ruby-2.5-12.fc25.x86_64.rpm
-+	libselinux-static-2.5-12.fc25.x86_64.rpm
-+	libselinux-utils-2.5-12.fc25.x86_64.rpm
-libsemanage-2.5-8.fc25
-*	libsemanage-2.5-8.fc25.x86_64.rpm
-+	libsemanage-devel-2.5-8.fc25.x86_64.rpm
-# requires python
-!	libsemanage-python-2.5-8.fc25.x86_64.rpm
-# requires python3
-!	libsemanage-python3-2.5-8.fc25.x86_64.rpm
-+	libsemanage-static-2.5-8.fc25.x86_64.rpm
-libsepol-2.5-10.fc25
-*	libsepol-2.5-10.fc25.x86_64.rpm
-+	libsepol-devel-2.5-10.fc25.x86_64.rpm
-+	libsepol-static-2.5-10.fc25.x86_64.rpm
-libsigsegv-2.10-10.fc24
-*	libsigsegv-2.10-10.fc24.x86_64.rpm
-+	libsigsegv-devel-2.10-10.fc24.x86_64.rpm
-+	libsigsegv-static-2.10-10.fc24.x86_64.rpm
-libssh2-1.8.0-1.fc25
-*	libssh2-1.8.0-1.fc25.x86_64.rpm
-+	libssh2-devel-1.8.0-1.fc25.x86_64.rpm
-+	libssh2-docs-1.8.0-1.fc25.noarch.rpm
-libtasn1-4.9-1.fc25
-*	libtasn1-4.9-1.fc25.x86_64.rpm
-+	libtasn1-devel-4.9-1.fc25.x86_64.rpm
-+	libtasn1-tools-4.9-1.fc25.x86_64.rpm
-libtool-2.4.6-12.fc25
-# requires autoconf, automake
-!	libtool-2.4.6-12.fc25.x86_64.rpm
-*	libtool-ltdl-2.4.6-12.fc25.x86_64.rpm
-+	libtool-ltdl-devel-2.4.6-12.fc25.x86_64.rpm
-libunistring-0.9.4-3.fc24
-*	libunistring-0.9.4-3.fc24.x86_64.rpm
-+	libunistring-devel-0.9.4-3.fc24.x86_64.rpm
-libutempter-1.1.6-8.fc24
-*	libutempter-1.1.6-8.fc24.x86_64.rpm
-+	libutempter-devel-1.1.6-8.fc24.x86_64.rpm
-libverto-0.2.6-6.fc24
-*	libverto-0.2.6-6.fc24.x86_64.rpm
-+	libverto-devel-0.2.6-6.fc24.x86_64.rpm
-+	libverto-glib-0.2.6-6.fc24.x86_64.rpm
-+	libverto-glib-devel-0.2.6-6.fc24.x86_64.rpm
-# requires libev
-!	libverto-libev-0.2.6-6.fc24.x86_64.rpm
-# requires libverto-libev
-!	libverto-libev-devel-0.2.6-6.fc24.x86_64.rpm
-# requires libevent
-!	libverto-libevent-0.2.6-6.fc24.x86_64.rpm
-# requires libverto-libevent
-!	libverto-libevent-devel-0.2.6-6.fc24.x86_64.rpm
-# requires libtevent, libtalloc
-!	libverto-tevent-0.2.6-6.fc24.x86_64.rpm
-# requires libverto-tevent
-!	libverto-tevent-devel-0.2.6-6.fc24.x86_64.rpm
-libxml2-2.9.3-4.fc25
-*	libxml2-2.9.3-4.fc25.x86_64.rpm
-+	libxml2-devel-2.9.3-4.fc25.x86_64.rpm
-+	libxml2-static-2.9.3-4.fc25.x86_64.rpm
-# requires python
-!	python-libxml2-2.9.3-4.fc25.x86_64.rpm
-# requires python3
-!	python3-libxml2-2.9.3-4.fc25.x86_64.rpm
-linux-firmware-20160923-68.git42ad5367.fc25
-+	iwl100-firmware-39.31.5.1-68.fc25.noarch.rpm
-+	iwl1000-firmware-39.31.5.1-68.fc25.noarch.rpm
-+	iwl105-firmware-18.168.6.1-68.fc25.noarch.rpm
-+	iwl135-firmware-18.168.6.1-68.fc25.noarch.rpm
-+	iwl2000-firmware-18.168.6.1-68.fc25.noarch.rpm
-+	iwl2030-firmware-18.168.6.1-68.fc25.noarch.rpm
-+	iwl3160-firmware-25.30.13.0-68.fc25.noarch.rpm
-+	iwl3945-firmware-15.32.2.9-68.fc25.noarch.rpm
-+	iwl4965-firmware-228.61.2.24-68.fc25.noarch.rpm
-+	iwl5000-firmware-8.83.5.1_1-68.fc25.noarch.rpm
-+	iwl5150-firmware-8.24.2.2-68.fc25.noarch.rpm
-+	iwl6000-firmware-9.221.4.1-68.fc25.noarch.rpm
-+	iwl6000g2a-firmware-18.168.6.1-68.fc25.noarch.rpm
-+	iwl6000g2b-firmware-18.168.6.1-68.fc25.noarch.rpm
-+	iwl6050-firmware-41.28.5.1-68.fc25.noarch.rpm
-+	iwl7260-firmware-25.30.13.0-68.fc25.noarch.rpm
-+	libertas-sd8686-firmware-20160923-68.git42ad5367.fc25.noarch.rpm
-+	libertas-sd8787-firmware-20160923-68.git42ad5367.fc25.noarch.rpm
-+	libertas-usb8388-firmware-20160923-68.git42ad5367.fc25.noarch.rpm
-+	libertas-usb8388-olpc-firmware-20160923-68.git42ad5367.fc25.noarch.rpm
-*	linux-firmware-20160923-68.git42ad5367.fc25.noarch.rpm
-lua-5.3.3-3.fc25
-# we should get rid of lua somehow; how?
-# we can't remove it from rpm but perhaps we could create "system-lua" or
-# something like that so that we can disconnect it from BRT...
-# for now I'm leaving it in because this needs more thought and work
-+	lua-5.3.3-3.fc25.x86_64.rpm
-+	lua-devel-5.3.3-3.fc25.x86_64.rpm
-*	lua-libs-5.3.3-3.fc25.x86_64.rpm
-+	lua-static-5.3.3-3.fc25.x86_64.rpm
-lvm2-2.02.161-3.fc25
-# requires corosync, corosynclib, resource-agents
-!	cmirror-2.02.161-3.fc25.x86_64.rpm
-# requires cmirror
-!	cmirror-standalone-2.02.161-3.fc25.x86_64.rpm
-*	device-mapper-1.02.131-3.fc25.x86_64.rpm
-+	device-mapper-devel-1.02.131-3.fc25.x86_64.rpm
-+	device-mapper-event-1.02.131-3.fc25.x86_64.rpm
-+	device-mapper-event-devel-1.02.131-3.fc25.x86_64.rpm
-+	device-mapper-event-libs-1.02.131-3.fc25.x86_64.rpm
-*	device-mapper-libs-1.02.131-3.fc25.x86_64.rpm
-# requires device-mapper-persistent-data
-# this is bad; I think we do want lvm2
-!	lvm2-2.02.161-3.fc25.x86_64.rpm
-# requires corosync, corosynclib, dlm, dlm-lib, resource agents
-!	lvm2-cluster-2.02.161-3.fc25.x86_64.rpm
-# requires lvm2-cluster
-!	lvm2-cluster-standalone-2.02.161-3.fc25.x86_64.rpm
-# requires python3-dbus, python3-gobject-base, python3-pyudev... no
-!	lvm2-dbusd-2.02.161-3.fc25.x86_64.rpm
-# requires lvm2 but otherwise is fine
-!	lvm2-devel-2.02.161-3.fc25.x86_64.rpm
-+	lvm2-libs-2.02.161-3.fc25.x86_64.rpm
-# requires sanlock-lib, dlm, dlm-lib
-!	lvm2-lockd-2.02.161-3.fc25.x86_64.rpm
-# requires python
-!	lvm2-python-libs-2.02.161-3.fc25.x86_64.rpm
-# requires python3
-!	lvm2-python3-libs-2.02.161-3.fc25.x86_64.rpm
-lz4-r131-2.fc24
-+	lz4-devel-r131-2.fc24.x86_64.rpm
-*	lz4-r131-2.fc24.x86_64.rpm
-+	lz4-static-r131-2.fc24.x86_64.rpm
-lzo-2.08-8.fc24
-*	lzo-2.08-8.fc24.x86_64.rpm
-+	lzo-devel-2.08-8.fc24.x86_64.rpm
-+	lzo-minilzo-2.08-8.fc24.x86_64.rpm
-m4-1.4.17-9.fc24
-*	m4-1.4.17-9.fc24.x86_64.rpm
-man-db-2.7.5-3.fc25
-*	man-db-2.7.5-3.fc25.x86_64.rpm
-+	man-db-cron-2.7.5-3.fc25.noarch.rpm
-mpfr-3.1.5-1.fc25
-*	mpfr-3.1.5-1.fc25.x86_64.rpm
-+	mpfr-devel-3.1.5-1.fc25.x86_64.rpm
-ncompress-4.2.4.4-6.fc24
-*	ncompress-4.2.4.4-6.fc24.x86_64.rpm
-ncurses-6.0-6.20160709.fc25
-*	ncurses-6.0-6.20160709.fc25.x86_64.rpm
-*	ncurses-base-6.0-6.20160709.fc25.noarch.rpm
-+	ncurses-c++-libs-6.0-6.20160709.fc25.x86_64.rpm
-+	ncurses-compat-libs-6.0-6.20160709.fc25.x86_64.rpm
-+	ncurses-devel-6.0-6.20160709.fc25.x86_64.rpm
-*	ncurses-libs-6.0-6.20160709.fc25.x86_64.rpm
-+	ncurses-static-6.0-6.20160709.fc25.x86_64.rpm
-+	ncurses-term-6.0-6.20160709.fc25.noarch.rpm
-nettle-3.3-1.fc25
-*	nettle-3.3-1.fc25.x86_64.rpm
-+	nettle-devel-3.3-1.fc25.x86_64.rpm
-nghttp2-1.13.0-2.fc25
-*	libnghttp2-1.13.0-2.fc25.x86_64.rpm
-+	libnghttp2-devel-1.13.0-2.fc25.x86_64.rpm
-# requires libev
-!	nghttp2-1.13.0-2.fc25.x86_64.rpm
-npth-1.2-3.fc24
-*	npth-1.2-3.fc24.x86_64.rpm
-+	npth-devel-1.2-3.fc24.x86_64.rpm
-nspr-4.13.1-1.fc25
-*	nspr-4.13.1-1.fc25.x86_64.rpm
-+	nspr-devel-4.13.1-1.fc25.x86_64.rpm
-nss-3.27.0-1.1.fc25
-*	nss-3.27.0-1.1.fc25.x86_64.rpm
-+	nss-devel-3.27.0-1.1.fc25.x86_64.rpm
-+	nss-pkcs11-devel-3.27.0-1.1.fc25.x86_64.rpm
-*	nss-sysinit-3.27.0-1.1.fc25.x86_64.rpm
-*	nss-tools-3.27.0-1.1.fc25.x86_64.rpm
-nss-pem-1.0.2-2.fc25
-*	nss-pem-1.0.2-2.fc25.x86_64.rpm
-nss-softokn-3.27.0-1.0.fc25
-*	nss-softokn-3.27.0-1.0.fc25.x86_64.rpm
-+	nss-softokn-devel-3.27.0-1.0.fc25.x86_64.rpm
-*	nss-softokn-freebl-3.27.0-1.0.fc25.x86_64.rpm
-+	nss-softokn-freebl-devel-3.27.0-1.0.fc25.x86_64.rpm
-nss-util-3.27.0-1.0.fc25
-*	nss-util-3.27.0-1.0.fc25.x86_64.rpm
-+	nss-util-devel-3.27.0-1.0.fc25.x86_64.rpm
-ocaml-srpm-macros-2-4.fc24
-*	ocaml-srpm-macros-2-4.fc24.noarch.rpm
-openldap-2.4.44-2.fc25
-# we need to get rid of this, really...
-*	openldap-2.4.44-2.fc25.x86_64.rpm
-+	openldap-clients-2.4.44-2.fc25.x86_64.rpm
-# requires cyrus-sasl-devel
-!	openldap-devel-2.4.44-2.fc25.x86_64.rpm
-# requires perl, perl-libs, tcp_wrappers-libs
-!	openldap-servers-2.4.44-2.fc25.x86_64.rpm
-os-prober-1.71-1.fc25
-*	os-prober-1.71-1.fc25.x86_64.rpm
-p11-kit-0.23.2-2.fc24
-*	p11-kit-0.23.2-2.fc24.x86_64.rpm
-+	p11-kit-devel-0.23.2-2.fc24.x86_64.rpm
-*	p11-kit-trust-0.23.2-2.fc24.x86_64.rpm
+acl-2.2.52-13.fc26
+	libacl-2.2.52-13.fc26.x86_64.rpm
+	acl-2.2.52-13.fc26.x86_64.rpm
+	libacl-devel-2.2.52-13.fc26.x86_64.rpm
+at-3.1.20-3.fc26
+	at-3.1.20-3.fc26.x86_64.rpm
+attr-2.4.47-18.fc26
+	libattr-devel-2.4.47-18.fc26.x86_64.rpm
+	attr-2.4.47-18.fc26.x86_64.rpm
+	libattr-2.4.47-18.fc26.x86_64.rpm
+audit-2.7.3-1.fc26
+	audit-libs-devel-2.7.3-1.fc26.x86_64.rpm
+	audit-libs-2.7.3-1.fc26.x86_64.rpm
+	audit-2.7.3-1.fc26.x86_64.rpm
+	audit-libs-python3-2.7.3-1.fc26.x86_64.rpm
+	audit-libs-python-2.7.3-1.fc26.x86_64.rpm
+	audispd-plugins-zos-2.7.3-1.fc26.x86_64.rpm
+	audit-libs-static-2.7.3-1.fc26.x86_64.rpm
+	audispd-plugins-2.7.3-1.fc26.x86_64.rpm
+babeltrace-1.5.1-2.fc26
+	babeltrace-1.5.1-2.fc26.x86_64.rpm
+	libbabeltrace-devel-1.5.1-2.fc26.x86_64.rpm
+	python3-babeltrace-1.5.1-2.fc26.x86_64.rpm
+	libbabeltrace-1.5.1-2.fc26.x86_64.rpm
+basesystem-11-3.fc26
+	basesystem-11-3.fc26.noarch.rpm
+bash-4.4.11-2.fc26
+	bash-doc-4.4.11-2.fc26.x86_64.rpm
+	bash-4.4.11-2.fc26.x86_64.rpm
+bc-1.06.95-18.fc26
+	bc-1.06.95-18.fc26.x86_64.rpm
+binutils-2.27-19.fc26
+	binutils-devel-2.27-19.fc26.x86_64.rpm
+	binutils-2.27-19.fc26.x86_64.rpm
+byacc-1.9.20170201-1.fc26
+	byacc-1.9.20170201-1.fc26.x86_64.rpm
+bzip2-1.0.6-22.fc26
+	bzip2-libs-1.0.6-22.fc26.x86_64.rpm
+	bzip2-1.0.6-22.fc26.x86_64.rpm
+	bzip2-devel-1.0.6-22.fc26.x86_64.rpm
+	bzip2-static-1.0.6-22.fc26.x86_64.rpm
+ca-certificates-2017.2.11-5.fc26
+	ca-certificates-2017.2.11-5.fc26.noarch.rpm
+cflow-1.5-2.fc26
+	cflow-1.5-2.fc26.x86_64.rpm
+chkconfig-1.9-1.fc26
+	chkconfig-1.9-1.fc26.x86_64.rpm
+	ntsysv-1.9-1.fc26.x86_64.rpm
+coreutils-8.26-7.fc26
+	coreutils-single-8.26-7.fc26.x86_64.rpm
+	coreutils-common-8.26-7.fc26.x86_64.rpm
+	coreutils-8.26-7.fc26.x86_64.rpm
+cpio-2.12-4.fc26
+	cpio-2.12-4.fc26.x86_64.rpm
+cracklib-2.9.6-5.fc26
+	cracklib-python-2.9.6-5.fc26.x86_64.rpm
+	cracklib-dicts-2.9.6-5.fc26.x86_64.rpm
+	cracklib-devel-2.9.6-5.fc26.x86_64.rpm
+	cracklib-2.9.6-5.fc26.x86_64.rpm
+cronie-1.5.1-5.fc26
+	cronie-noanacron-1.5.1-5.fc26.x86_64.rpm
+	cronie-anacron-1.5.1-5.fc26.x86_64.rpm
+	cronie-1.5.1-5.fc26.x86_64.rpm
+crontabs-1.11-14.20150630git.fc26
+	crontabs-1.11-14.20150630git.fc26.noarch.rpm
+crypto-policies-20170214-2.gitf3018dd.fc26
+	crypto-policies-20170214-2.gitf3018dd.fc26.noarch.rpm
+cryptsetup-1.7.3-3.fc26
+	cryptsetup-reencrypt-1.7.3-3.fc26.x86_64.rpm
+	cryptsetup-python3-1.7.3-3.fc26.x86_64.rpm
+	cryptsetup-python-1.7.3-3.fc26.x86_64.rpm
+	cryptsetup-1.7.3-3.fc26.x86_64.rpm
+	cryptsetup-devel-1.7.3-3.fc26.x86_64.rpm
+	cryptsetup-libs-1.7.3-3.fc26.x86_64.rpm
+	veritysetup-1.7.3-3.fc26.x86_64.rpm
+ctags-5.8-19.fc26
+	ctags-5.8-19.fc26.x86_64.rpm
+	ctags-etags-5.8-19.fc26.x86_64.rpm
+curl-7.53.1-1.fc26
+	curl-7.53.1-1.fc26.x86_64.rpm
+	libcurl-7.53.1-1.fc26.x86_64.rpm
+	libcurl-devel-7.53.1-1.fc26.x86_64.rpm
+cyrus-sasl-2.1.26-28.fc26
+	cyrus-sasl-scram-2.1.26-28.fc26.x86_64.rpm
+	cyrus-sasl-md5-2.1.26-28.fc26.x86_64.rpm
+	cyrus-sasl-sql-2.1.26-28.fc26.x86_64.rpm
+	cyrus-sasl-plain-2.1.26-28.fc26.x86_64.rpm
+	cyrus-sasl-lib-2.1.26-28.fc26.x86_64.rpm
+	cyrus-sasl-devel-2.1.26-28.fc26.x86_64.rpm
+	cyrus-sasl-2.1.26-28.fc26.x86_64.rpm
+	cyrus-sasl-ntlm-2.1.26-28.fc26.x86_64.rpm
+	cyrus-sasl-ldap-2.1.26-28.fc26.x86_64.rpm
+	cyrus-sasl-gssapi-2.1.26-28.fc26.x86_64.rpm
+	cyrus-sasl-gs2-2.1.26-28.fc26.x86_64.rpm
+dbus-1.11.10-1.fc26
+	dbus-libs-1.11.10-1.fc26.x86_64.rpm
+	dbus-devel-1.11.10-1.fc26.x86_64.rpm
+	dbus-tests-1.11.10-1.fc26.x86_64.rpm
+	dbus-1.11.10-1.fc26.x86_64.rpm
+	dbus-doc-1.11.10-1.fc26.noarch.rpm
+	dbus-x11-1.11.10-1.fc26.x86_64.rpm
+diffutils-3.5-3.fc26
+	diffutils-3.5-3.fc26.x86_64.rpm
+dracut-044-177.fc26
+	dracut-live-044-177.fc26.x86_64.rpm
+	dracut-fips-aesni-044-177.fc26.x86_64.rpm
+	dracut-network-044-177.fc26.x86_64.rpm
+	dracut-044-177.fc26.x86_64.rpm
+	dracut-fips-044-177.fc26.x86_64.rpm
+	dracut-config-generic-044-177.fc26.x86_64.rpm
+	dracut-tools-044-177.fc26.x86_64.rpm
+	dracut-caps-044-177.fc26.x86_64.rpm
+	dracut-config-rescue-044-177.fc26.x86_64.rpm
+dwz-0.12-3.fc26
+	dwz-0.12-3.fc26.x86_64.rpm
+e2fsprogs-1.43.4-2.fc26
+	e2fsprogs-devel-1.43.4-2.fc26.x86_64.rpm
+	libss-devel-1.43.4-2.fc26.x86_64.rpm
+	libss-1.43.4-2.fc26.x86_64.rpm
+	libcom_err-1.43.4-2.fc26.x86_64.rpm
+	e2fsprogs-1.43.4-2.fc26.x86_64.rpm
+	e2fsprogs-libs-1.43.4-2.fc26.x86_64.rpm
+	libcom_err-devel-1.43.4-2.fc26.x86_64.rpm
+	e2fsprogs-static-1.43.4-2.fc26.x86_64.rpm
+ed-1.14.1-2.fc26
+	ed-1.14.1-2.fc26.x86_64.rpm
+elfutils-0.168-5.fc26
+	elfutils-default-yama-scope-0.168-5.fc26.noarch.rpm
+	elfutils-devel-0.168-5.fc26.x86_64.rpm
+	elfutils-devel-static-0.168-5.fc26.x86_64.rpm
+	elfutils-libelf-0.168-5.fc26.x86_64.rpm
+	elfutils-libelf-devel-static-0.168-5.fc26.x86_64.rpm
+	elfutils-0.168-5.fc26.x86_64.rpm
+	elfutils-libelf-devel-0.168-5.fc26.x86_64.rpm
+	elfutils-libs-0.168-5.fc26.x86_64.rpm
+emacs-25.2-0.1.rc2.fc26
+	emacs-25.2-0.1.rc2.fc26.x86_64.rpm
+	emacs-nox-25.2-0.1.rc2.fc26.x86_64.rpm
+	emacs-terminal-25.2-0.1.rc2.fc26.noarch.rpm
+	emacs-filesystem-25.2-0.1.rc2.fc26.noarch.rpm
+	emacs-common-25.2-0.1.rc2.fc26.x86_64.rpm
+expat-2.2.0-2.fc26
+	expat-2.2.0-2.fc26.x86_64.rpm
+	expat-devel-2.2.0-2.fc26.x86_64.rpm
+	expat-static-2.2.0-2.fc26.x86_64.rpm
+fedora-logos-26.0.0-2.fc26
+	fedora-logos-26.0.0-2.fc26.x86_64.rpm
+	fedora-logos-httpd-26.0.0-2.fc26.noarch.rpm
+fedora-release-26-0.4
+	fedora-release-cloud-26-0.4.noarch.rpm
+	fedora-release-server-26-0.4.noarch.rpm
+	convert-to-edition-26-0.4.noarch.rpm
+	fedora-release-workstation-26-0.4.noarch.rpm
+	fedora-release-atomichost-26-0.4.noarch.rpm
+	fedora-release-26-0.4.noarch.rpm
+fedora-repos-26-0.5
+	fedora-repos-rawhide-26-0.5.noarch.rpm
+	fedora-repos-26-0.5.noarch.rpm
+fedora-rpm-macros-26-2.fc26
+	fedora-rpm-macros-26-2.fc26.noarch.rpm
+fedpkg-minimal-1.1.0-8.fc26
+	fedpkg-minimal-1.1.0-8.fc26.noarch.rpm
+file-5.30-5.fc26
+	file-devel-5.30-5.fc26.x86_64.rpm
+	file-5.30-5.fc26.x86_64.rpm
+	python3-magic-5.30-5.fc26.noarch.rpm
+	python-magic-5.30-5.fc26.noarch.rpm
+	file-libs-5.30-5.fc26.x86_64.rpm
+filesystem-3.2-40.fc26
+	filesystem-3.2-40.fc26.x86_64.rpm
+findutils-4.6.0-11.fc26
+	findutils-4.6.0-11.fc26.x86_64.rpm
+flex-2.6.1-3.fc26
+	flex-devel-2.6.1-3.fc26.x86_64.rpm
+	flex-2.6.1-3.fc26.x86_64.rpm
+	flex-doc-2.6.1-3.fc26.x86_64.rpm
+fpc-srpm-macros-1.1-2.fc26
+	fpc-srpm-macros-1.1-2.fc26.noarch.rpm
+freetype-2.7.1-2.fc26
+	freetype-demos-2.7.1-2.fc26.x86_64.rpm
+	freetype-devel-2.7.1-2.fc26.x86_64.rpm
+	freetype-2.7.1-2.fc26.x86_64.rpm
+gawk-4.1.4-3.fc26
+	gawk-doc-4.1.4-3.fc26.noarch.rpm
+	gawk-devel-4.1.4-3.fc26.x86_64.rpm
+	gawk-4.1.4-3.fc26.x86_64.rpm
+gc-7.6.0-2.fc26
+	gc-devel-7.6.0-2.fc26.x86_64.rpm
+	gc-7.6.0-2.fc26.x86_64.rpm
+gcc-7.0.1-0.10.fc26
+	libgo-7.0.1-0.10.fc26.x86_64.rpm
+	gcc-objc++-7.0.1-0.10.fc26.x86_64.rpm
+	gcc-gdb-plugin-7.0.1-0.10.fc26.x86_64.rpm
+	libstdc++-static-7.0.1-0.10.fc26.x86_64.rpm
+	libgfortran-static-7.0.1-0.10.fc26.x86_64.rpm
+	libgfortran-7.0.1-0.10.fc26.x86_64.rpm
+	libgnat-7.0.1-0.10.fc26.x86_64.rpm
+	libasan-7.0.1-0.10.fc26.x86_64.rpm
+	libgo-devel-7.0.1-0.10.fc26.x86_64.rpm
+	gcc-7.0.1-0.10.fc26.x86_64.rpm
+	libquadmath-devel-7.0.1-0.10.fc26.x86_64.rpm
+	gcc-gnat-7.0.1-0.10.fc26.x86_64.rpm
+	libitm-7.0.1-0.10.fc26.x86_64.rpm
+	libasan-static-7.0.1-0.10.fc26.x86_64.rpm
+	gcc-c++-7.0.1-0.10.fc26.x86_64.rpm
+	libatomic-7.0.1-0.10.fc26.x86_64.rpm
+	libitm-static-7.0.1-0.10.fc26.x86_64.rpm
+	libcilkrts-static-7.0.1-0.10.fc26.x86_64.rpm
+	libgcc-7.0.1-0.10.fc26.x86_64.rpm
+	libtsan-7.0.1-0.10.fc26.x86_64.rpm
+	gcc-gfortran-7.0.1-0.10.fc26.x86_64.rpm
+	liblsan-7.0.1-0.10.fc26.x86_64.rpm
+	libgccjit-7.0.1-0.10.fc26.x86_64.rpm
+	libquadmath-7.0.1-0.10.fc26.x86_64.rpm
+	liblsan-static-7.0.1-0.10.fc26.x86_64.rpm
+	libgnat-static-7.0.1-0.10.fc26.x86_64.rpm
+	gcc-offload-nvptx-7.0.1-0.10.fc26.x86_64.rpm
+	gcc-go-7.0.1-0.10.fc26.x86_64.rpm
+	libstdc++-7.0.1-0.10.fc26.x86_64.rpm
+	libquadmath-static-7.0.1-0.10.fc26.x86_64.rpm
+	libgccjit-devel-7.0.1-0.10.fc26.x86_64.rpm
+	gcc-objc-7.0.1-0.10.fc26.x86_64.rpm
+	libstdc++-docs-7.0.1-0.10.fc26.x86_64.rpm
+	libubsan-static-7.0.1-0.10.fc26.x86_64.rpm
+	gcc-plugin-devel-7.0.1-0.10.fc26.x86_64.rpm
+	libitm-devel-7.0.1-0.10.fc26.x86_64.rpm
+	libgo-static-7.0.1-0.10.fc26.x86_64.rpm
+	libstdc++-devel-7.0.1-0.10.fc26.x86_64.rpm
+	libmpx-static-7.0.1-0.10.fc26.x86_64.rpm
+	libubsan-7.0.1-0.10.fc26.x86_64.rpm
+	libmpx-7.0.1-0.10.fc26.x86_64.rpm
+	libgnat-devel-7.0.1-0.10.fc26.x86_64.rpm
+	libgomp-offload-nvptx-7.0.1-0.10.fc26.x86_64.rpm
+	libatomic-static-7.0.1-0.10.fc26.x86_64.rpm
+	libgomp-7.0.1-0.10.fc26.x86_64.rpm
+	libobjc-7.0.1-0.10.fc26.x86_64.rpm
+	libcilkrts-7.0.1-0.10.fc26.x86_64.rpm
+	cpp-7.0.1-0.10.fc26.x86_64.rpm
+	libtsan-static-7.0.1-0.10.fc26.x86_64.rpm
+gdb-7.12.50.20170226-1.fc26
+	gdb-doc-7.12.50.20170226-1.fc26.noarch.rpm
+	gdb-7.12.50.20170226-1.fc26.x86_64.rpm
+	gdb-headless-7.12.50.20170226-1.fc26.x86_64.rpm
+	gdb-gdbserver-7.12.50.20170226-1.fc26.x86_64.rpm
+gdbm-1.12-2.fc26
+	gdbm-devel-1.12-2.fc26.x86_64.rpm
+	gdbm-1.12-2.fc26.x86_64.rpm
+gettext-0.19.8.1-8.fc26
+	gettext-common-devel-0.19.8.1-8.fc26.noarch.rpm
+	gettext-libs-0.19.8.1-8.fc26.x86_64.rpm
+	gettext-0.19.8.1-8.fc26.x86_64.rpm
+	gettext-devel-0.19.8.1-8.fc26.x86_64.rpm
+	msghack-0.19.8.1-8.fc26.noarch.rpm
+	emacs-gettext-0.19.8.1-8.fc26.noarch.rpm
+ghc-srpm-macros-1.4.2-5.fc26
+	ghc-srpm-macros-1.4.2-5.fc26.noarch.rpm
+glib2-2.51.2-1.fc26
+	glib2-devel-2.51.2-1.fc26.x86_64.rpm
+	glib2-fam-2.51.2-1.fc26.x86_64.rpm
+	glib2-doc-2.51.2-1.fc26.noarch.rpm
+	glib2-static-2.51.2-1.fc26.x86_64.rpm
+	glib2-2.51.2-1.fc26.x86_64.rpm
+	glib2-tests-2.51.2-1.fc26.x86_64.rpm
+glibc-2.25-1.fc26
+	glibc-langpack-bs-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-mg-2.25-1.fc26.x86_64.rpm
+	glibc-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-nhn-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-om-2.25-1.fc26.x86_64.rpm
+	nss_hesiod-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-zh-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-et-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-te-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-mhr-2.25-1.fc26.x86_64.rpm
+	nscd-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ts-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-nn-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-uk-2.25-1.fc26.x86_64.rpm
+	libcrypt-nss-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-it-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ln-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ky-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-nl-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-en-2.25-1.fc26.x86_64.rpm
+	glibc-utils-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ku-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-bo-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ml-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-rw-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-be-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-aa-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-xh-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-mk-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-shs-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-bhb-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-tig-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-lt-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-bho-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-sgs-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-nds-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-lzh-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-lo-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-lg-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-sd-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-uz-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ta-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-mag-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-cy-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-mai-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-anp-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ja-2.25-1.fc26.x86_64.rpm
+	glibc-common-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-dz-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-gez-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-id-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-mr-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-kl-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-os-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-fa-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-cv-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-st-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-th-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-es-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-hsb-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-nso-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-tcy-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ce-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-tr-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ht-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-fr-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-quz-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-pa-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-sa-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-hu-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ru-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ia-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-bn-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-sat-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-vi-2.25-1.fc26.x86_64.rpm
+	glibc-nss-devel-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-sid-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-mt-2.25-1.fc26.x86_64.rpm
+	glibc-locale-source-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ps-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-as-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-se-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-he-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-yo-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-eu-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-chr-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-hy-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-si-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-the-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-niu-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-tn-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-kw-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-doi-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-nan-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-bg-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-gd-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-nr-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-yue-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-cs-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-hne-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-bem-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ak-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ms-2.25-1.fc26.x86_64.rpm
+	nss_db-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ayc-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-kok-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-csb-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-pl-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-unm-2.25-1.fc26.x86_64.rpm
+	nss_nis-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-sv-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ro-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-el-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-gu-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-hak-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ff-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-fi-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-byn-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ig-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ti-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-so-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ka-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-iu-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-sr-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-kn-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-yi-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ug-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-dv-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-mi-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-km-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-lb-2.25-1.fc26.x86_64.rpm
+	glibc-minimal-langpack-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ar-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-sk-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-kk-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-eo-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-brx-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-fy-2.25-1.fc26.x86_64.rpm
+	glibc-static-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ha-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ss-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ber-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ks-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-da-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ik-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-nb-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-de-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-sq-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ast-2.25-1.fc26.x86_64.rpm
+	glibc-all-langpacks-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-fo-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-is-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-my-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-tt-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-gl-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-af-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-sc-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-fil-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-mn-2.25-1.fc26.x86_64.rpm
+	libcrypt-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-oc-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-am-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-gv-2.25-1.fc26.x86_64.rpm
+	glibc-benchtests-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ve-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ga-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-zu-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ca-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-tl-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-wae-2.25-1.fc26.x86_64.rpm
+	glibc-devel-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-pap-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ko-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ur-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-pt-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-mni-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-sl-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-hr-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-crh-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-br-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-ne-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-hi-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-wo-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-fur-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-sw-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-wa-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-tg-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-wal-2.25-1.fc26.x86_64.rpm
+	glibc-headers-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-az-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-szl-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-an-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-lv-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-raj-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-or-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-li-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-tk-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-lij-2.25-1.fc26.x86_64.rpm
+	glibc-langpack-cmn-2.25-1.fc26.x86_64.rpm
+gmp-6.1.2-3.fc26
+	gmp-6.1.2-3.fc26.x86_64.rpm
+	gmp-c++-6.1.2-3.fc26.x86_64.rpm
+	gmp-static-6.1.2-3.fc26.x86_64.rpm
+	gmp-devel-6.1.2-3.fc26.x86_64.rpm
+gnat-srpm-macros-4-2.fc26
+	gnat-srpm-macros-4-2.fc26.noarch.rpm
+gnupg2-2.1.17-3.fc26
+	gnupg2-smime-2.1.17-3.fc26.x86_64.rpm
+	gnupg2-2.1.17-3.fc26.x86_64.rpm
+gnutls-3.5.9-2.fc26
+	gnutls-utils-3.5.9-2.fc26.x86_64.rpm
+	gnutls-c++-3.5.9-2.fc26.x86_64.rpm
+	gnutls-devel-3.5.9-2.fc26.x86_64.rpm
+	gnutls-guile-3.5.9-2.fc26.x86_64.rpm
+	gnutls-3.5.9-2.fc26.x86_64.rpm
+	gnutls-dane-3.5.9-2.fc26.x86_64.rpm
+go-srpm-macros-2-8.fc26
+	go-srpm-macros-2-8.fc26.noarch.rpm
+gobject-introspection-1.51.3-1.fc26
+	gobject-introspection-devel-1.51.3-1.fc26.x86_64.rpm
+	gobject-introspection-1.51.3-1.fc26.x86_64.rpm
+gpgme-1.8.0-12.fc26
+	qgpgme-1.8.0-12.fc26.x86_64.rpm
+	python2-gpg-1.8.0-12.fc26.x86_64.rpm
+	gpgmepp-devel-1.8.0-12.fc26.x86_64.rpm
+	python3-gpg-1.8.0-12.fc26.x86_64.rpm
+	gpgme-devel-1.8.0-12.fc26.x86_64.rpm
+	gpgme-1.8.0-12.fc26.x86_64.rpm
+	qgpgme-devel-1.8.0-12.fc26.x86_64.rpm
+	gpgmepp-1.8.0-12.fc26.x86_64.rpm
+grep-3.0-1.fc26
+	grep-3.0-1.fc26.x86_64.rpm
+groff-1.22.3-9.fc26
+	groff-doc-1.22.3-9.fc26.noarch.rpm
+	groff-base-1.22.3-9.fc26.x86_64.rpm
+	groff-1.22.3-9.fc26.x86_64.rpm
+	groff-x11-1.22.3-9.fc26.x86_64.rpm
+	groff-perl-1.22.3-9.fc26.x86_64.rpm
+grub2-2.02-0.38.fc26
+	grub2-efi-2.02-0.38.fc26.x86_64.rpm
+	grub2-efi-modules-2.02-0.38.fc26.x86_64.rpm
+	grub2-starfield-theme-2.02-0.38.fc26.x86_64.rpm
+	grub2-2.02-0.38.fc26.x86_64.rpm
+	grub2-tools-2.02-0.38.fc26.x86_64.rpm
+guile-2.0.14-1.fc26
+	guile-2.0.14-1.fc26.x86_64.rpm
+	guile-devel-2.0.14-1.fc26.x86_64.rpm
+gzip-1.8-2.fc26
+	gzip-1.8-2.fc26.x86_64.rpm
+hmaccalc-0.9.14-6.fc26
+	hmaccalc-0.9.14-6.fc26.x86_64.rpm
+iptables-1.6.1-2.fc26
+	iptables-libs-1.6.1-2.fc26.x86_64.rpm
+	iptables-compat-1.6.1-2.fc26.x86_64.rpm
+	iptables-utils-1.6.1-2.fc26.x86_64.rpm
+	iptables-devel-1.6.1-2.fc26.x86_64.rpm
+	iptables-services-1.6.1-2.fc26.x86_64.rpm
+	iptables-1.6.1-2.fc26.x86_64.rpm
+isl-0.16.1-1.fc26
+	isl-0.16.1-1.fc26.x86_64.rpm
+	isl-devel-0.16.1-1.fc26.x86_64.rpm
+kernel-4.11.0-0.rc0.git5.1.fc26
+	kernel-headers-4.11.0-0.rc0.git5.1.fc26.x86_64.rpm
+	kernel-modules-4.11.0-0.rc0.git5.1.fc26.x86_64.rpm
+	kernel-tools-4.11.0-0.rc0.git5.1.fc26.x86_64.rpm
+	kernel-devel-4.11.0-0.rc0.git5.1.fc26.x86_64.rpm
+	kernel-core-4.11.0-0.rc0.git5.1.fc26.x86_64.rpm
+	perf-4.11.0-0.rc0.git5.1.fc26.x86_64.rpm
+	kernel-tools-libs-4.11.0-0.rc0.git5.1.fc26.x86_64.rpm
+	python-perf-4.11.0-0.rc0.git5.1.fc26.x86_64.rpm
+	kernel-4.11.0-0.rc0.git5.1.fc26.x86_64.rpm
+	kernel-modules-extra-4.11.0-0.rc0.git5.1.fc26.x86_64.rpm
+	kernel-tools-libs-devel-4.11.0-0.rc0.git5.1.fc26.x86_64.rpm
+	kernel-cross-headers-4.11.0-0.rc0.git5.1.fc26.x86_64.rpm
+keyutils-1.5.9-9.fc26
+	keyutils-libs-devel-1.5.9-9.fc26.x86_64.rpm
+	keyutils-libs-1.5.9-9.fc26.x86_64.rpm
+	keyutils-1.5.9-9.fc26.x86_64.rpm
+kmod-24-1.fc26
+	kmod-libs-24-1.fc26.x86_64.rpm
+	kmod-24-1.fc26.x86_64.rpm
+	kmod-devel-24-1.fc26.x86_64.rpm
+krb5-1.15-6.fc26
+	krb5-server-ldap-1.15-6.fc26.x86_64.rpm
+	libkadm5-1.15-6.fc26.x86_64.rpm
+	krb5-pkinit-1.15-6.fc26.x86_64.rpm
+	krb5-devel-1.15-6.fc26.x86_64.rpm
+	krb5-workstation-1.15-6.fc26.x86_64.rpm
+	krb5-server-1.15-6.fc26.x86_64.rpm
+	krb5-libs-1.15-6.fc26.x86_64.rpm
+less-487-2.fc26
+	less-487-2.fc26.x86_64.rpm
+libarchive-3.2.2-3.fc26
+	bsdcat-3.2.2-3.fc26.x86_64.rpm
+	libarchive-3.2.2-3.fc26.x86_64.rpm
+	bsdcpio-3.2.2-3.fc26.x86_64.rpm
+	libarchive-devel-3.2.2-3.fc26.x86_64.rpm
+	bsdtar-3.2.2-3.fc26.x86_64.rpm
+libassuan-2.4.3-2.fc26
+	libassuan-devel-2.4.3-2.fc26.x86_64.rpm
+	libassuan-2.4.3-2.fc26.x86_64.rpm
+libatomic_ops-7.4.4-2.fc26
+	libatomic_ops-7.4.4-2.fc26.x86_64.rpm
+	libatomic_ops-devel-7.4.4-2.fc26.x86_64.rpm
+	libatomic_ops-static-7.4.4-2.fc26.x86_64.rpm
+libcap-2.25-5.fc26
+	libcap-static-2.25-5.fc26.x86_64.rpm
+	libcap-2.25-5.fc26.x86_64.rpm
+	libcap-devel-2.25-5.fc26.x86_64.rpm
+libcap-ng-0.7.8-3.fc26
+	libcap-ng-0.7.8-3.fc26.x86_64.rpm
+	libcap-ng-python-0.7.8-3.fc26.x86_64.rpm
+	libcap-ng-utils-0.7.8-3.fc26.x86_64.rpm
+	libcap-ng-python3-0.7.8-3.fc26.x86_64.rpm
+	libcap-ng-devel-0.7.8-3.fc26.x86_64.rpm
+libcroco-0.6.11-3.fc26
+	libcroco-devel-0.6.11-3.fc26.x86_64.rpm
+	libcroco-0.6.11-3.fc26.x86_64.rpm
+libdb-5.3.28-17.fc26
+	libdb-devel-static-5.3.28-17.fc26.x86_64.rpm
+	libdb-devel-5.3.28-17.fc26.x86_64.rpm
+	libdb-cxx-5.3.28-17.fc26.x86_64.rpm
+	libdb-sql-5.3.28-17.fc26.x86_64.rpm
+	libdb-utils-5.3.28-17.fc26.x86_64.rpm
+	libdb-sql-devel-5.3.28-17.fc26.x86_64.rpm
+	libdb-tcl-5.3.28-17.fc26.x86_64.rpm
+	libdb-cxx-devel-5.3.28-17.fc26.x86_64.rpm
+	libdb-java-devel-5.3.28-17.fc26.x86_64.rpm
+	libdb-tcl-devel-5.3.28-17.fc26.x86_64.rpm
+	libdb-java-5.3.28-17.fc26.x86_64.rpm
+	libdb-devel-doc-5.3.28-17.fc26.noarch.rpm
+	libdb-5.3.28-17.fc26.x86_64.rpm
+libdnf-0.7.4-1.fc26
+	libdnf-devel-0.7.4-1.fc26.x86_64.rpm
+	libdnf-0.7.4-1.fc26.x86_64.rpm
+	python3-hawkey-0.7.4-1.fc26.x86_64.rpm
+	python2-hawkey-0.7.4-1.fc26.x86_64.rpm
+libffi-3.1-10.fc26
+	libffi-3.1-10.fc26.x86_64.rpm
+	libffi-devel-3.1-10.fc26.x86_64.rpm
+libgcrypt-1.7.6-2.fc26
+	libgcrypt-devel-1.7.6-2.fc26.x86_64.rpm
+	libgcrypt-1.7.6-2.fc26.x86_64.rpm
+libgpg-error-1.25-2.fc26
+	libgpg-error-1.25-2.fc26.x86_64.rpm
+	libgpg-error-devel-1.25-2.fc26.x86_64.rpm
+libidn-1.33-2.fc26
+	libidn-1.33-2.fc26.x86_64.rpm
+	libidn-devel-1.33-2.fc26.x86_64.rpm
+	libidn-javadoc-1.33-2.fc26.noarch.rpm
+	libidn-java-1.33-2.fc26.noarch.rpm
+libidn2-0.16-2.fc26
+	libidn2-devel-0.16-2.fc26.x86_64.rpm
+	libidn2-0.16-2.fc26.x86_64.rpm
+libipt-1.5-2.fc26
+	libipt-1.5-2.fc26.x86_64.rpm
+	libipt-devel-1.5-2.fc26.x86_64.rpm
+libksba-1.3.5-3.fc26
+	libksba-devel-1.3.5-3.fc26.x86_64.rpm
+	libksba-1.3.5-3.fc26.x86_64.rpm
+libmetalink-0.1.3-2.fc26
+	libmetalink-0.1.3-2.fc26.x86_64.rpm
+	libmetalink-devel-0.1.3-2.fc26.x86_64.rpm
+libmpc-1.0.2-6.fc26
+	libmpc-1.0.2-6.fc26.x86_64.rpm
+	libmpc-devel-1.0.2-6.fc26.x86_64.rpm
+	compat-libmpc-1.0.2-6.fc26.x86_64.rpm
+libpcap-1.8.1-3.fc26
+	libpcap-devel-1.8.1-3.fc26.x86_64.rpm
+	libpcap-1.8.1-3.fc26.x86_64.rpm
+libpeas-1.20.0-5.fc26
+	libpeas-1.20.0-5.fc26.x86_64.rpm
+	libpeas-devel-1.20.0-5.fc26.x86_64.rpm
+	libpeas-loader-python3-1.20.0-5.fc26.x86_64.rpm
+	libpeas-loader-python-1.20.0-5.fc26.x86_64.rpm
+	libpeas-gtk-1.20.0-5.fc26.x86_64.rpm
+libpipeline-1.4.1-3.fc26
+	libpipeline-devel-1.4.1-3.fc26.x86_64.rpm
+	libpipeline-1.4.1-3.fc26.x86_64.rpm
+libpng-1.6.28-2.fc26
+	libpng-tools-1.6.28-2.fc26.x86_64.rpm
+	libpng-static-1.6.28-2.fc26.x86_64.rpm
+	libpng-devel-1.6.28-2.fc26.x86_64.rpm
+	libpng-1.6.28-2.fc26.x86_64.rpm
+libpsl-0.17.0-2.fc26
+	psl-make-dafsa-0.17.0-2.fc26.x86_64.rpm
+	libpsl-0.17.0-2.fc26.x86_64.rpm
+	libpsl-devel-0.17.0-2.fc26.x86_64.rpm
+	psl-0.17.0-2.fc26.x86_64.rpm
+libpwquality-1.3.0-8.fc26
+	libpwquality-devel-1.3.0-8.fc26.x86_64.rpm
+	python-pwquality-1.3.0-8.fc26.x86_64.rpm
+	libpwquality-1.3.0-8.fc26.x86_64.rpm
+	python3-pwquality-1.3.0-8.fc26.x86_64.rpm
+librepo-1.7.20-3.fc26
+	librepo-1.7.20-3.fc26.x86_64.rpm
+	python2-librepo-1.7.20-3.fc26.x86_64.rpm
+	librepo-devel-1.7.20-3.fc26.x86_64.rpm
+	python3-librepo-1.7.20-3.fc26.x86_64.rpm
+libseccomp-2.3.1-2.fc26
+	libseccomp-devel-2.3.1-2.fc26.x86_64.rpm
+	libseccomp-2.3.1-2.fc26.x86_64.rpm
+	libseccomp-static-2.3.1-2.fc26.x86_64.rpm
+libselinux-2.6-1.fc26
+	libselinux-python3-2.6-1.fc26.x86_64.rpm
+	libselinux-ruby-2.6-1.fc26.x86_64.rpm
+	libselinux-utils-2.6-1.fc26.x86_64.rpm
+	libselinux-2.6-1.fc26.x86_64.rpm
+	libselinux-static-2.6-1.fc26.x86_64.rpm
+	libselinux-python-2.6-1.fc26.x86_64.rpm
+	libselinux-devel-2.6-1.fc26.x86_64.rpm
+libsemanage-2.6-1.1.fc26
+	libsemanage-devel-2.6-1.1.fc26.x86_64.rpm
+	libsemanage-python-2.6-1.1.fc26.x86_64.rpm
+	libsemanage-static-2.6-1.1.fc26.x86_64.rpm
+	libsemanage-2.6-1.1.fc26.x86_64.rpm
+	libsemanage-python3-2.6-1.1.fc26.x86_64.rpm
+libsepol-2.6-1.fc26
+	libsepol-static-2.6-1.fc26.x86_64.rpm
+	libsepol-devel-2.6-1.fc26.x86_64.rpm
+	libsepol-2.6-1.fc26.x86_64.rpm
+libsigsegv-2.11-1.fc26
+	libsigsegv-2.11-1.fc26.x86_64.rpm
+	libsigsegv-devel-2.11-1.fc26.x86_64.rpm
+	libsigsegv-static-2.11-1.fc26.x86_64.rpm
+libsolv-0.6.26-1.fc26
+	libsolv-devel-0.6.26-1.fc26.x86_64.rpm
+	python3-solv-0.6.26-1.fc26.x86_64.rpm
+	libsolv-demo-0.6.26-1.fc26.x86_64.rpm
+	libsolv-0.6.26-1.fc26.x86_64.rpm
+	ruby-solv-0.6.26-1.fc26.x86_64.rpm
+	python2-solv-0.6.26-1.fc26.x86_64.rpm
+	libsolv-tools-0.6.26-1.fc26.x86_64.rpm
+	perl-solv-0.6.26-1.fc26.x86_64.rpm
+libssh2-1.8.0-2.fc26
+	libssh2-docs-1.8.0-2.fc26.noarch.rpm
+	libssh2-1.8.0-2.fc26.x86_64.rpm
+	libssh2-devel-1.8.0-2.fc26.x86_64.rpm
+libtasn1-4.10-2.fc26
+	libtasn1-devel-4.10-2.fc26.x86_64.rpm
+	libtasn1-4.10-2.fc26.x86_64.rpm
+	libtasn1-tools-4.10-2.fc26.x86_64.rpm
+libtool-2.4.6-17.fc26
+	libtool-2.4.6-17.fc26.x86_64.rpm
+	libtool-ltdl-devel-2.4.6-17.fc26.x86_64.rpm
+	libtool-ltdl-2.4.6-17.fc26.x86_64.rpm
+libunistring-0.9.7-1.fc26
+	libunistring-devel-0.9.7-1.fc26.x86_64.rpm
+	libunistring-0.9.7-1.fc26.x86_64.rpm
+libutempter-1.1.6-9.fc26
+	libutempter-devel-1.1.6-9.fc26.x86_64.rpm
+	libutempter-1.1.6-9.fc26.x86_64.rpm
+libverto-0.2.6-7.fc26
+	libverto-libev-0.2.6-7.fc26.x86_64.rpm
+	libverto-tevent-devel-0.2.6-7.fc26.x86_64.rpm
+	libverto-0.2.6-7.fc26.x86_64.rpm
+	libverto-glib-devel-0.2.6-7.fc26.x86_64.rpm
+	libverto-libevent-0.2.6-7.fc26.x86_64.rpm
+	libverto-glib-0.2.6-7.fc26.x86_64.rpm
+	libverto-libevent-devel-0.2.6-7.fc26.x86_64.rpm
+	libverto-libev-devel-0.2.6-7.fc26.x86_64.rpm
+	libverto-devel-0.2.6-7.fc26.x86_64.rpm
+	libverto-tevent-0.2.6-7.fc26.x86_64.rpm
+libxml2-2.9.4-2.fc26
+	libxml2-devel-2.9.4-2.fc26.x86_64.rpm
+	libxml2-static-2.9.4-2.fc26.x86_64.rpm
+	python3-libxml2-2.9.4-2.fc26.x86_64.rpm
+	python-libxml2-2.9.4-2.fc26.x86_64.rpm
+	libxml2-2.9.4-2.fc26.x86_64.rpm
+linux-firmware-20170213-71.git6d3bc888.fc26
+	iwl100-firmware-39.31.5.1-71.fc26.noarch.rpm
+	libertas-usb8388-firmware-20170213-71.git6d3bc888.fc26.noarch.rpm
+	iwl6000g2a-firmware-18.168.6.1-71.fc26.noarch.rpm
+	iwl2000-firmware-18.168.6.1-71.fc26.noarch.rpm
+	libertas-sd8787-firmware-20170213-71.git6d3bc888.fc26.noarch.rpm
+	iwl7260-firmware-25.30.13.0-71.fc26.noarch.rpm
+	iwl1000-firmware-39.31.5.1-71.fc26.noarch.rpm
+	iwl105-firmware-18.168.6.1-71.fc26.noarch.rpm
+	iwl5150-firmware-8.24.2.2-71.fc26.noarch.rpm
+	iwl3945-firmware-15.32.2.9-71.fc26.noarch.rpm
+	libertas-usb8388-olpc-firmware-20170213-71.git6d3bc888.fc26.noarch.rpm
+	iwl6050-firmware-41.28.5.1-71.fc26.noarch.rpm
+	iwl6000-firmware-9.221.4.1-71.fc26.noarch.rpm
+	libertas-sd8686-firmware-20170213-71.git6d3bc888.fc26.noarch.rpm
+	iwl3160-firmware-25.30.13.0-71.fc26.noarch.rpm
+	iwl135-firmware-18.168.6.1-71.fc26.noarch.rpm
+	iwl5000-firmware-8.83.5.1_1-71.fc26.noarch.rpm
+	iwl2030-firmware-18.168.6.1-71.fc26.noarch.rpm
+	linux-firmware-20170213-71.git6d3bc888.fc26.noarch.rpm
+	iwl4965-firmware-228.61.2.24-71.fc26.noarch.rpm
+	iwl6000g2b-firmware-18.168.6.1-71.fc26.noarch.rpm
+lua-5.3.4-1.fc26
+	lua-libs-5.3.4-1.fc26.x86_64.rpm
+	lua-5.3.4-1.fc26.x86_64.rpm
+	lua-devel-5.3.4-1.fc26.x86_64.rpm
+	lua-static-5.3.4-1.fc26.x86_64.rpm
+lvm2-2.02.168-4.fc26
+	lvm2-dbusd-2.02.168-4.fc26.x86_64.rpm
+	device-mapper-1.02.137-4.fc26.x86_64.rpm
+	lvm2-libs-2.02.168-4.fc26.x86_64.rpm
+	device-mapper-event-1.02.137-4.fc26.x86_64.rpm
+	cmirror-2.02.168-4.fc26.x86_64.rpm
+	lvm2-2.02.168-4.fc26.x86_64.rpm
+	lvm2-python3-libs-2.02.168-4.fc26.x86_64.rpm
+	cmirror-standalone-2.02.168-4.fc26.x86_64.rpm
+	device-mapper-event-devel-1.02.137-4.fc26.x86_64.rpm
+	lvm2-cluster-2.02.168-4.fc26.x86_64.rpm
+	lvm2-cluster-standalone-2.02.168-4.fc26.x86_64.rpm
+	lvm2-lockd-2.02.168-4.fc26.x86_64.rpm
+	lvm2-python-libs-2.02.168-4.fc26.x86_64.rpm
+	device-mapper-event-libs-1.02.137-4.fc26.x86_64.rpm
+	lvm2-devel-2.02.168-4.fc26.x86_64.rpm
+	device-mapper-devel-1.02.137-4.fc26.x86_64.rpm
+	device-mapper-libs-1.02.137-4.fc26.x86_64.rpm
+lz4-1.7.5-2.fc26
+	lz4-static-1.7.5-2.fc26.x86_64.rpm
+	lz4-1.7.5-2.fc26.x86_64.rpm
+	lz4-devel-1.7.5-2.fc26.x86_64.rpm
+lzo-2.08-9.fc26
+	lzo-minilzo-2.08-9.fc26.x86_64.rpm
+	lzo-2.08-9.fc26.x86_64.rpm
+	lzo-devel-2.08-9.fc26.x86_64.rpm
+m4-1.4.18-3.fc26
+	m4-1.4.18-3.fc26.x86_64.rpm
+make-4.2.1-2.fc26
+	make-devel-4.2.1-2.fc26.x86_64.rpm
+	make-4.2.1-2.fc26.x86_64.rpm
+man-db-2.7.6.1-2.fc26
+	man-db-2.7.6.1-2.fc26.x86_64.rpm
+	man-db-cron-2.7.6.1-2.fc26.noarch.rpm
+microdnf-2-2.fc26
+	microdnf-2-2.fc26.x86_64.rpm
+mpfr-3.1.5-2.fc26
+	mpfr-devel-3.1.5-2.fc26.x86_64.rpm
+	mpfr-3.1.5-2.fc26.x86_64.rpm
+ncompress-4.2.4.4-7.fc26
+	ncompress-4.2.4.4-7.fc26.x86_64.rpm
+ncurses-6.0-8.20170212.fc26
+	ncurses-compat-libs-6.0-8.20170212.fc26.x86_64.rpm
+	ncurses-libs-6.0-8.20170212.fc26.x86_64.rpm
+	ncurses-term-6.0-8.20170212.fc26.noarch.rpm
+	ncurses-6.0-8.20170212.fc26.x86_64.rpm
+	ncurses-devel-6.0-8.20170212.fc26.x86_64.rpm
+	ncurses-base-6.0-8.20170212.fc26.noarch.rpm
+	ncurses-static-6.0-8.20170212.fc26.x86_64.rpm
+	ncurses-c++-libs-6.0-8.20170212.fc26.x86_64.rpm
+nettle-3.3-2.fc26
+	nettle-devel-3.3-2.fc26.x86_64.rpm
+	nettle-3.3-2.fc26.x86_64.rpm
+nghttp2-1.20.0-1.fc26
+	libnghttp2-1.20.0-1.fc26.x86_64.rpm
+	nghttp2-1.20.0-1.fc26.x86_64.rpm
+	libnghttp2-devel-1.20.0-1.fc26.x86_64.rpm
+npth-1.3-2.fc26
+	npth-1.3-2.fc26.x86_64.rpm
+	npth-devel-1.3-2.fc26.x86_64.rpm
+nspr-4.13.1-2.fc26
+	nspr-4.13.1-2.fc26.x86_64.rpm
+	nspr-devel-4.13.1-2.fc26.x86_64.rpm
+nss-3.29.1-2.fc26
+	nss-sysinit-3.29.1-2.fc26.x86_64.rpm
+	nss-pkcs11-devel-3.29.1-2.fc26.x86_64.rpm
+	nss-3.29.1-2.fc26.x86_64.rpm
+	nss-devel-3.29.1-2.fc26.x86_64.rpm
+	nss-tools-3.29.1-2.fc26.x86_64.rpm
+nss-pem-1.0.2-4.fc26
+	nss-pem-1.0.2-4.fc26.x86_64.rpm
+nss-softokn-3.29.1-2.fc26
+	nss-softokn-3.29.1-2.fc26.x86_64.rpm
+	nss-softokn-devel-3.29.1-2.fc26.x86_64.rpm
+	nss-softokn-freebl-3.29.1-2.fc26.x86_64.rpm
+	nss-softokn-freebl-devel-3.29.1-2.fc26.x86_64.rpm
+nss-util-3.29.1-2.fc26
+	nss-util-3.29.1-2.fc26.x86_64.rpm
+	nss-util-devel-3.29.1-2.fc26.x86_64.rpm
+ocaml-srpm-macros-4-2.fc26
+	ocaml-srpm-macros-4-2.fc26.noarch.rpm
+openldap-2.4.44-8.fc26
+	openldap-devel-2.4.44-8.fc26.x86_64.rpm
+	openldap-servers-2.4.44-8.fc26.x86_64.rpm
+	openldap-2.4.44-8.fc26.x86_64.rpm
+	openldap-clients-2.4.44-8.fc26.x86_64.rpm
+openssl-1.1.0d-3.fc26
+	openssl-libs-1.1.0d-3.fc26.x86_64.rpm
+	openssl-static-1.1.0d-3.fc26.x86_64.rpm
+	openssl-devel-1.1.0d-3.fc26.x86_64.rpm
+	openssl-1.1.0d-3.fc26.x86_64.rpm
+	openssl-perl-1.1.0d-3.fc26.x86_64.rpm
+os-prober-1.71-2.fc26
+	os-prober-1.71-2.fc26.x86_64.rpm
+p11-kit-0.23.4-3.fc26
+	p11-kit-devel-0.23.4-3.fc26.x86_64.rpm
+	p11-kit-tools-0.23.4-3.fc26.x86_64.rpm
+	p11-kit-0.23.4-3.fc26.x86_64.rpm
+	p11-kit-trust-0.23.4-3.fc26.x86_64.rpm
 pam-1.3.0-1.fc25
-*	pam-1.3.0-1.fc25.x86_64.rpm
-+	pam-devel-1.3.0-1.fc25.x86_64.rpm
-patch-2.7.5-3.fc24
-*	patch-2.7.5-3.fc24.x86_64.rpm
-pcre-8.39-6.fc25
-*	pcre-8.39-6.fc25.x86_64.rpm
-+	pcre-cpp-8.39-6.fc25.x86_64.rpm
-+	pcre-devel-8.39-6.fc25.x86_64.rpm
-+	pcre-doc-8.39-6.fc25.noarch.rpm
-+	pcre-static-8.39-6.fc25.x86_64.rpm
-+	pcre-tools-8.39-6.fc25.x86_64.rpm
-+	pcre-utf16-8.39-6.fc25.x86_64.rpm
-+	pcre-utf32-8.39-6.fc25.x86_64.rpm
-perl-srpm-macros-1-20.fc25
-*	perl-srpm-macros-1-20.fc25.noarch.rpm
-popt-1.16-7.fc24
-*	popt-1.16-7.fc24.x86_64.rpm
-+	popt-devel-1.16-7.fc24.x86_64.rpm
-+	popt-static-1.16-7.fc24.x86_64.rpm
-procps-ng-3.3.10-11.fc24
-*	procps-ng-3.3.10-11.fc24.x86_64.rpm
-+	procps-ng-devel-3.3.10-11.fc24.x86_64.rpm
-+	procps-ng-i18n-3.3.10-11.fc24.noarch.rpm
-psmisc-22.21-8.fc24
-*	psmisc-22.21-8.fc24.x86_64.rpm
-python3-3.5.2-4.fc25
-# we explicitly don't want these, howgh
-!	python3-3.5.2-4.fc25.x86_64.rpm
-!	python3-debug-3.5.2-4.fc25.x86_64.rpm
-!	python3-devel-3.5.2-4.fc25.x86_64.rpm
-!	python3-libs-3.5.2-4.fc25.x86_64.rpm
-!	python3-test-3.5.2-4.fc25.x86_64.rpm
-!	python3-tkinter-3.5.2-4.fc25.x86_64.rpm
-!	python3-tools-3.5.2-4.fc25.x86_64.rpm
-*	system-python-3.5.2-4.fc25.x86_64.rpm
-*	system-python-libs-3.5.2-4.fc25.x86_64.rpm
-python-rpm-macros-3-10.fc25
-+	python-rpm-macros-3-10.fc25.noarch.rpm
-*	python-srpm-macros-3-10.fc25.noarch.rpm
-+	python2-rpm-macros-3-10.fc25.noarch.rpm
-+	python3-rpm-macros-3-10.fc25.noarch.rpm
-qrencode-3.4.2-6.fc24
-+	qrencode-3.4.2-6.fc24.x86_64.rpm
-+	qrencode-devel-3.4.2-6.fc24.x86_64.rpm
-*	qrencode-libs-3.4.2-6.fc24.x86_64.rpm
-qt5-5.7.0-9.fc25
-# just say no to qt5!
-!	qt5-5.7.0-9.fc25.noarch.rpm
-!	qt5-devel-5.7.0-9.fc25.noarch.rpm
-# requires cmake but otherwise would be okay-ish
-!	qt5-rpm-macros-5.7.0-9.fc25.noarch.rpm
-*	qt5-srpm-macros-5.7.0-9.fc25.noarch.rpm
-readline-6.3-8.fc24
-*	readline-6.3-8.fc24.x86_64.rpm
-+	readline-devel-6.3-8.fc24.x86_64.rpm
-+	readline-static-6.3-8.fc24.x86_64.rpm
-redhat-rpm-config-44-1.fc25
-# requires perl, sigh
-!	kernel-rpm-macros-44-1.fc25.noarch.rpm
-*	redhat-rpm-config-44-1.fc25.noarch.rpm
-rpm-4.13.0-8.fc26
-# requires python
-!	python2-rpm-4.13.0-8.fc26.x86_64.rpm
-# requires python3
-!	python3-rpm-4.13.0-8.fc26.x86_64.rpm
-*	rpm-4.13.0-8.fc26.x86_64.rpm
-+	rpm-apidocs-4.13.0-8.fc26.noarch.rpm
-*	rpm-build-4.13.0-8.fc26.x86_64.rpm
-*	rpm-build-libs-4.13.0-8.fc26.x86_64.rpm
-# requires logrotate
-!	rpm-cron-4.13.0-8.fc26.noarch.rpm
-+	rpm-devel-4.13.0-8.fc26.x86_64.rpm
-*	rpm-libs-4.13.0-8.fc26.x86_64.rpm
-+	rpm-plugin-ima-4.13.0-8.fc26.x86_64.rpm
-*	rpm-plugin-selinux-4.13.0-8.fc26.x86_64.rpm
-+	rpm-plugin-syslog-4.13.0-8.fc26.x86_64.rpm
-+	rpm-plugin-systemd-inhibit-4.13.0-8.fc26.x86_64.rpm
-+	rpm-sign-4.13.0-8.fc26.x86_64.rpm
-sed-4.2.2-15.fc24
-*	sed-4.2.2-15.fc24.x86_64.rpm
-setup-2.10.4-1.fc25
-*	setup-2.10.4-1.fc25.noarch.rpm
-sharutils-4.15.2-4.fc25
-*	sharutils-4.15.2-4.fc25.x86_64.rpm
-sqlite-3.14.2-1.fc25
-# we should probably get rid of sqlite, nobody wants to support this forever
-# is it possible?
-+	lemon-3.14.2-1.fc25.x86_64.rpm
-+	sqlite-3.14.2-1.fc25.x86_64.rpm
-# requires tcl
-!	sqlite-analyzer-3.14.2-1.fc25.x86_64.rpm
-+	sqlite-devel-3.14.2-1.fc25.x86_64.rpm
-+	sqlite-doc-3.14.2-1.fc25.noarch.rpm
-*	sqlite-libs-3.14.2-1.fc25.x86_64.rpm
-# also requires tcl
-!	sqlite-tcl-3.14.2-1.fc25.x86_64.rpm
-systemd-231-10.fc25
-*	systemd-231-10.fc25.x86_64.rpm
-+	systemd-container-231-10.fc25.x86_64.rpm
-+	systemd-devel-231-10.fc25.x86_64.rpm
-# requires libmicrohttpd, firewalld-filesystem
-!	systemd-journal-remote-231-10.fc25.x86_64.rpm
-*	systemd-libs-231-10.fc25.x86_64.rpm
-*	systemd-pam-231-10.fc25.x86_64.rpm
-*	systemd-udev-231-10.fc25.x86_64.rpm
-texinfo-6.1-3.fc25
-*	info-6.1-3.fc25.x86_64.rpm
-# requires lots of perl
-!	texinfo-6.1-3.fc25.x86_64.rpm
-# requires texinfo and some texlive
-!	texinfo-tex-6.1-3.fc25.x86_64.rpm
-time-1.7-49.fc24
-*	time-1.7-49.fc24.x86_64.rpm
-tzdata-2016h-1.fc25
-*	tzdata-2016h-1.fc25.noarch.rpm
-+	tzdata-java-2016h-1.fc25.noarch.rpm
-unzip-6.0-30.fc25
-*	unzip-6.0-30.fc25.x86_64.rpm
-ustr-1.0.4-21.fc24
-*	ustr-1.0.4-21.fc24.x86_64.rpm
-+	ustr-debug-1.0.4-21.fc24.x86_64.rpm
-+	ustr-debug-static-1.0.4-21.fc24.x86_64.rpm
-+	ustr-devel-1.0.4-21.fc24.x86_64.rpm
-+	ustr-static-1.0.4-21.fc24.x86_64.rpm
-util-linux-2.28.2-1.fc25
-*	libblkid-2.28.2-1.fc25.x86_64.rpm
-+	libblkid-devel-2.28.2-1.fc25.x86_64.rpm
-*	libfdisk-2.28.2-1.fc25.x86_64.rpm
-+	libfdisk-devel-2.28.2-1.fc25.x86_64.rpm
-*	libmount-2.28.2-1.fc25.x86_64.rpm
-+	libmount-devel-2.28.2-1.fc25.x86_64.rpm
-*	libsmartcols-2.28.2-1.fc25.x86_64.rpm
-+	libsmartcols-devel-2.28.2-1.fc25.x86_64.rpm
-*	libuuid-2.28.2-1.fc25.x86_64.rpm
-+	libuuid-devel-2.28.2-1.fc25.x86_64.rpm
-# requires python3
-!	python3-libmount-2.28.2-1.fc25.x86_64.rpm
-*	util-linux-2.28.2-1.fc25.x86_64.rpm
-# requires libuser
-!	util-linux-user-2.28.2-1.fc25.x86_64.rpm
-+	uuidd-2.28.2-1.fc25.x86_64.rpm
-which-2.21-1.fc25
-*	which-2.21-1.fc25.x86_64.rpm
-xz-5.2.2-3.fc26
-*	xz-5.2.2-3.fc26.x86_64.rpm
-+	xz-devel-5.2.2-3.fc26.x86_64.rpm
-*	xz-libs-5.2.2-3.fc26.x86_64.rpm
-+	xz-lzma-compat-5.2.2-3.fc26.x86_64.rpm
-+	xz-static-5.2.2-3.fc26.x86_64.rpm
-zip-3.0-16.fc24
-*	zip-3.0-16.fc24.x86_64.rpm
-zlib-1.2.8-10.fc24
-+	minizip-1.2.8-10.fc24.x86_64.rpm
-+	minizip-devel-1.2.8-10.fc24.x86_64.rpm
-*	zlib-1.2.8-10.fc24.x86_64.rpm
-+	zlib-devel-1.2.8-10.fc24.x86_64.rpm
-+	zlib-static-1.2.8-10.fc24.x86_64.rpm
-libpcap-1.7.4-2.fc24
-*	libpcap-1.7.4-2.fc24.x86_64.rpm
-+	libpcap-devel-1.7.4-2.fc24.x86_64.rpm
-dbus-1.11.6-1.fc25
-*	dbus-1.11.6-1.fc25.x86_64.rpm
-# requires xml-common; is this a problem?
-!	dbus-devel-1.11.6-1.fc25.x86_64.rpm
-+	dbus-doc-1.11.6-1.fc25.noarch.rpm
-*	dbus-libs-1.11.6-1.fc25.x86_64.rpm
-+	dbus-tests-1.11.6-1.fc25.x86_64.rpm
-# requires libX11, xorg-x11-xinit
-!	dbus-x11-1.11.6-1.fc25.x86_64.rpm
-emacs-25.1-2.fc25
-# requires EVERYTHING
-# really, we don't want emacs in BRT; wonder if we can get rid of the
-# filesystem subpackage, too...
-!	emacs-25.1-2.fc25.x86_64.rpm
-# requires liblockfile
-!	emacs-common-25.1-2.fc25.x86_64.rpm
-*	emacs-filesystem-25.1-2.fc25.noarch.rpm
-# this requires alsa, libjpeg-turbo... c'mon...
-!	emacs-nox-25.1-2.fc25.x86_64.rpm
-# requires emacs, see above
-!	emacs-terminal-25.1-2.fc25.noarch.rpm
-findutils-4.6.0-8.fc25
-*	findutils-4.6.0-8.fc25.x86_64.rpm
-gmp-6.1.1-1.fc25
-*	gmp-6.1.1-1.fc25.x86_64.rpm
-+	gmp-c++-6.1.1-1.fc25.x86_64.rpm
-+	gmp-devel-6.1.1-1.fc25.x86_64.rpm
-+	gmp-static-6.1.1-1.fc25.x86_64.rpm
-grub2-2.02-0.34.fc24
-*	grub2-2.02-0.34.fc24.x86_64.rpm
-*	grub2-efi-2.02-0.34.fc24.x86_64.rpm
-+	grub2-efi-modules-2.02-0.34.fc24.x86_64.rpm
-+	grub2-starfield-theme-2.02-0.34.fc24.x86_64.rpm
-*	grub2-tools-2.02-0.34.fc24.x86_64.rpm
-make-4.1-5.fc24
-*	make-4.1-5.fc24.x86_64.rpm
-+	make-devel-4.1-5.fc24.x86_64.rpm
-openssl-1.0.2j-1.fc25
-+	openssl-1.0.2j-1.fc25.x86_64.rpm
-+	openssl-devel-1.0.2j-1.fc25.x86_64.rpm
-*	openssl-libs-1.0.2j-1.fc25.x86_64.rpm
-# requires lots of perl
-!	openssl-perl-1.0.2j-1.fc25.x86_64.rpm
-+	openssl-static-1.0.2j-1.fc25.x86_64.rpm
-pkgconfig-0.29.1-1.fc25
-*	pkgconfig-0.29.1-1.fc25.x86_64.rpm
-libpng-1.6.23-1.fc25
-*	libpng-1.6.23-1.fc25.x86_64.rpm
-+	libpng-devel-1.6.23-1.fc25.x86_64.rpm
-+	libpng-static-1.6.23-1.fc25.x86_64.rpm
-+	libpng-tools-1.6.23-1.fc25.x86_64.rpm
-shadow-utils-4.2.1-11.fc25
-*	shadow-utils-4.2.1-11.fc25.x86_64.rpm
-tar-1.29-1.fc25
-*	tar-1.29-1.fc25.x86_64.rpm
-vim-7.4.1989-2.fc25
-# can we get rid of vim? do we need an editor in BRT? if we do, perhaps we
-# could switch to something lighter or drop the X11 support somehow; can it
-# be safely disconnected from the rest?
-# the gvim part, requires X11
-!	vim-X11-7.4.1989-2.fc25.x86_64.rpm
-+	vim-common-7.4.1989-2.fc25.x86_64.rpm
-# requires perl-libs, gpm-libs
-!	vim-enhanced-7.4.1989-2.fc25.x86_64.rpm
-+	vim-filesystem-7.4.1989-2.fc25.x86_64.rpm
-*	vim-minimal-7.4.1989-2.fc25.x86_64.rpm
-guile-2.0.13-1.fc25
-*	guile-2.0.13-1.fc25.x86_64.rpm
-+	guile-devel-2.0.13-1.fc25.x86_64.rpm
-pth-2.0.7-27.fc24
-+	pth-2.0.7-27.fc24.x86_64.rpm
-+	pth-devel-2.0.7-27.fc24.x86_64.rpm
-hmaccalc-0.9.14-4.fc24.
-+	hmaccalc-0.9.14-4.fc24.x86_64.rpm
-publicsuffix-list-20160805-1.fc25
-+	publicsuffix-list-20160805-1.fc25.noarch.rpm
+	pam-1.3.0-1.fc25.x86_64.rpm
+	pam-devel-1.3.0-1.fc25.x86_64.rpm
+patch-2.7.5-4.fc26
+	patch-2.7.5-4.fc26.x86_64.rpm
+pcre-8.40-5.fc26
+	pcre-8.40-5.fc26.x86_64.rpm
+	pcre-devel-8.40-5.fc26.x86_64.rpm
+	pcre-cpp-8.40-5.fc26.x86_64.rpm
+	pcre-utf16-8.40-5.fc26.x86_64.rpm
+	pcre-static-8.40-5.fc26.x86_64.rpm
+	pcre-doc-8.40-5.fc26.noarch.rpm
+	pcre-tools-8.40-5.fc26.x86_64.rpm
+	pcre-utf32-8.40-5.fc26.x86_64.rpm
+perl-srpm-macros-1-21.fc26
+	perl-srpm-macros-1-21.fc26.noarch.rpm
+pkgconf-1.3.0-1.fc26
+	pkgconf-m4-1.3.0-1.fc26.noarch.rpm
+	pkgconf-1.3.0-1.fc26.x86_64.rpm
+	libpkgconf-devel-1.3.0-1.fc26.x86_64.rpm
+	libpkgconf-1.3.0-1.fc26.x86_64.rpm
+	pkgconf-pkg-config-1.3.0-1.fc26.x86_64.rpm
+popt-1.16-8.fc26
+	popt-1.16-8.fc26.x86_64.rpm
+	popt-devel-1.16-8.fc26.x86_64.rpm
+	popt-static-1.16-8.fc26.x86_64.rpm
+procps-ng-3.3.10-13.fc26
+	procps-ng-devel-3.3.10-13.fc26.x86_64.rpm
+	procps-ng-i18n-3.3.10-13.fc26.noarch.rpm
+	procps-ng-3.3.10-13.fc26.x86_64.rpm
+psmisc-22.21-9.fc26
+	psmisc-22.21-9.fc26.x86_64.rpm
+pth-2.0.7-28.fc26
+	pth-devel-2.0.7-28.fc26.x86_64.rpm
+	pth-2.0.7-28.fc26.x86_64.rpm
+publicsuffix-list-20170206-1.fc26
+	publicsuffix-list-20170206-1.fc26.noarch.rpm
+	publicsuffix-list-dafsa-20170206-1.fc26.noarch.rpm
+pyparsing-2.1.10-3.fc26
+	python3-pyparsing-2.1.10-3.fc26.noarch.rpm
+	pyparsing-2.1.10-3.fc26.noarch.rpm
+	python2-pyparsing-2.1.10-3.fc26.noarch.rpm
+	pyparsing-doc-2.1.10-3.fc26.noarch.rpm
+python-appdirs-1.4.0-10.fc26
+	python2-appdirs-1.4.0-10.fc26.noarch.rpm
+	python3-appdirs-1.4.0-10.fc26.noarch.rpm
+python-packaging-16.8-4.fc26
+	python-packaging-doc-16.8-4.fc26.noarch.rpm
+	python3-packaging-16.8-4.fc26.noarch.rpm
+	python2-packaging-16.8-4.fc26.noarch.rpm
+python-pip-9.0.1-7.fc26
+	python3-pip-9.0.1-7.fc26.noarch.rpm
+	python2-pip-9.0.1-7.fc26.noarch.rpm
+python-rpm-macros-3-19.fc26
+	python-rpm-macros-3-19.fc26.noarch.rpm
+	python2-rpm-macros-3-19.fc26.noarch.rpm
+	python-srpm-macros-3-19.fc26.noarch.rpm
+	python3-rpm-macros-3-19.fc26.noarch.rpm
+python-setuptools-34.3.0-1.fc26
+	python3-setuptools-34.3.0-1.fc26.noarch.rpm
+	python2-setuptools-34.3.0-1.fc26.noarch.rpm
+python-six-1.10.0-8.fc26
+	python3-six-1.10.0-8.fc26.noarch.rpm
+	python2-six-1.10.0-8.fc26.noarch.rpm
+python3-3.6.0-19.fc26
+	python3-libs-3.6.0-19.fc26.x86_64.rpm
+	python3-devel-3.6.0-19.fc26.x86_64.rpm
+	system-python-3.6.0-19.fc26.x86_64.rpm
+	python3-debug-3.6.0-19.fc26.x86_64.rpm
+	python3-3.6.0-19.fc26.x86_64.rpm
+	python3-tools-3.6.0-19.fc26.x86_64.rpm
+	python3-tkinter-3.6.0-19.fc26.x86_64.rpm
+	python3-test-3.6.0-19.fc26.x86_64.rpm
+	system-python-libs-3.6.0-19.fc26.x86_64.rpm
+qrencode-3.4.2-7.fc26
+	qrencode-devel-3.4.2-7.fc26.x86_64.rpm
+	qrencode-3.4.2-7.fc26.x86_64.rpm
+	qrencode-libs-3.4.2-7.fc26.x86_64.rpm
+qt5-5.8.0-2.fc26
+	qt5-5.8.0-2.fc26.noarch.rpm
+	qt5-rpm-macros-5.8.0-2.fc26.noarch.rpm
+	qt5-srpm-macros-5.8.0-2.fc26.noarch.rpm
+	qt5-devel-5.8.0-2.fc26.noarch.rpm
+readline-7.0-5.fc26
+	readline-devel-7.0-5.fc26.x86_64.rpm
+	readline-7.0-5.fc26.x86_64.rpm
+	readline-static-7.0-5.fc26.x86_64.rpm
+redhat-rpm-config-63-1.fc26
+	kernel-rpm-macros-63-1.fc26.noarch.rpm
+	redhat-rpm-config-63-1.fc26.noarch.rpm
+rpm-4.13.0.1-3.fc26
+	rpm-apidocs-4.13.0.1-3.fc26.noarch.rpm
+	rpm-plugin-syslog-4.13.0.1-3.fc26.x86_64.rpm
+	python3-rpm-4.13.0.1-3.fc26.x86_64.rpm
+	rpm-devel-4.13.0.1-3.fc26.x86_64.rpm
+	rpm-4.13.0.1-3.fc26.x86_64.rpm
+	rpm-sign-4.13.0.1-3.fc26.x86_64.rpm
+	rpm-plugin-systemd-inhibit-4.13.0.1-3.fc26.x86_64.rpm
+	rpm-build-libs-4.13.0.1-3.fc26.x86_64.rpm
+	rpm-libs-4.13.0.1-3.fc26.x86_64.rpm
+	python2-rpm-4.13.0.1-3.fc26.x86_64.rpm
+	rpm-plugin-selinux-4.13.0.1-3.fc26.x86_64.rpm
+	rpm-build-4.13.0.1-3.fc26.x86_64.rpm
+	rpm-plugin-ima-4.13.0.1-3.fc26.x86_64.rpm
+	rpm-cron-4.13.0.1-3.fc26.noarch.rpm
+sed-4.4-1.fc26
+	sed-4.4-1.fc26.x86_64.rpm
+setup-2.10.5-2.fc26
+	setup-2.10.5-2.fc26.noarch.rpm
+shadow-utils-4.3.1-3.fc26
+	shadow-utils-4.3.1-3.fc26.x86_64.rpm
+sharutils-4.15.2-5.fc26
+	sharutils-4.15.2-5.fc26.x86_64.rpm
+sqlite-3.17.0-1.fc26
+	sqlite-analyzer-3.17.0-1.fc26.x86_64.rpm
+	sqlite-doc-3.17.0-1.fc26.noarch.rpm
+	sqlite-3.17.0-1.fc26.x86_64.rpm
+	sqlite-libs-3.17.0-1.fc26.x86_64.rpm
+	sqlite-devel-3.17.0-1.fc26.x86_64.rpm
+	sqlite-tcl-3.17.0-1.fc26.x86_64.rpm
+	lemon-3.17.0-1.fc26.x86_64.rpm
+systemd-232-15.fc26
+	systemd-pam-232-15.fc26.x86_64.rpm
+	systemd-devel-232-15.fc26.x86_64.rpm
+	systemd-232-15.fc26.x86_64.rpm
+	systemd-udev-232-15.fc26.x86_64.rpm
+	systemd-journal-remote-232-15.fc26.x86_64.rpm
+	systemd-libs-232-15.fc26.x86_64.rpm
+	systemd-container-232-15.fc26.x86_64.rpm
+tar-1.29-4.fc26
+	tar-1.29-4.fc26.x86_64.rpm
+texinfo-6.3-2.fc26
+	texinfo-tex-6.3-2.fc26.x86_64.rpm
+	info-6.3-2.fc26.x86_64.rpm
+	texinfo-6.3-2.fc26.x86_64.rpm
+time-1.7-52.fc26
+	time-1.7-52.fc26.x86_64.rpm
+tzdata-2016j-3.fc26
+	tzdata-2016j-3.fc26.noarch.rpm
+	tzdata-java-2016j-3.fc26.noarch.rpm
+unzip-6.0-33.fc26
+	unzip-6.0-33.fc26.x86_64.rpm
+ustr-1.0.4-22.fc26
+	ustr-debug-1.0.4-22.fc26.x86_64.rpm
+	ustr-debug-static-1.0.4-22.fc26.x86_64.rpm
+	ustr-static-1.0.4-22.fc26.x86_64.rpm
+	ustr-devel-1.0.4-22.fc26.x86_64.rpm
+	ustr-1.0.4-22.fc26.x86_64.rpm
+util-linux-2.29.1-2.fc26
+	uuidd-2.29.1-2.fc26.x86_64.rpm
+	libblkid-2.29.1-2.fc26.x86_64.rpm
+	libmount-devel-2.29.1-2.fc26.x86_64.rpm
+	util-linux-2.29.1-2.fc26.x86_64.rpm
+	libsmartcols-devel-2.29.1-2.fc26.x86_64.rpm
+	libfdisk-devel-2.29.1-2.fc26.x86_64.rpm
+	python3-libmount-2.29.1-2.fc26.x86_64.rpm
+	libblkid-devel-2.29.1-2.fc26.x86_64.rpm
+	libfdisk-2.29.1-2.fc26.x86_64.rpm
+	libuuid-2.29.1-2.fc26.x86_64.rpm
+	libsmartcols-2.29.1-2.fc26.x86_64.rpm
+	util-linux-user-2.29.1-2.fc26.x86_64.rpm
+	libmount-2.29.1-2.fc26.x86_64.rpm
+	libuuid-devel-2.29.1-2.fc26.x86_64.rpm
+vim-8.0.347-2.fc26
+	vim-X11-8.0.347-2.fc26.x86_64.rpm
+	vim-enhanced-8.0.347-2.fc26.x86_64.rpm
+	vim-common-8.0.347-2.fc26.x86_64.rpm
+	vim-minimal-8.0.347-2.fc26.x86_64.rpm
+	vim-filesystem-8.0.347-2.fc26.x86_64.rpm
+which-2.21-2.fc26
+	which-2.21-2.fc26.x86_64.rpm
+xz-5.2.3-2.fc26
+	xz-static-5.2.3-2.fc26.x86_64.rpm
+	xz-libs-5.2.3-2.fc26.x86_64.rpm
+	xz-5.2.3-2.fc26.x86_64.rpm
+	xz-devel-5.2.3-2.fc26.x86_64.rpm
+	xz-lzma-compat-5.2.3-2.fc26.x86_64.rpm
+zip-3.0-18.fc26
+	zip-3.0-18.fc26.x86_64.rpm
+zlib-1.2.11-2.fc26
+	zlib-devel-1.2.11-2.fc26.x86_64.rpm
+	minizip-devel-1.2.11-2.fc26.x86_64.rpm
+	zlib-static-1.2.11-2.fc26.x86_64.rpm
+	minizip-1.2.11-2.fc26.x86_64.rpm
+	zlib-1.2.11-2.fc26.x86_64.rpm
